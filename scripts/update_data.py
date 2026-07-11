@@ -1,17 +1,24 @@
 """
-Daily update of a survivorship-bias-free S&P 500 database.
+Daily update of a survivorship-bias-free NYSE + Nasdaq + NYSE American (AMEX)
+stock database.
 
-- Universe & membership changes: scraped from Wikipedia's
-  "List of S&P 500 companies" page (current constituents + dated
-  history of index additions/removals).
-- Prices, dividends, splits: pulled from Yahoo Finance via yfinance.
+Universe & membership changes: derived by diffing daily snapshots of Nasdaq
+Trader's official listed-securities directory (nasdaqlisted.txt +
+otherlisted.txt) against the previously tracked universe. Unlike the S&P 500
+(whose Wikipedia page has a decades-deep historical change log), there's no
+free pre-built delisting/IPO registry for the full market, so bias-free
+tracking here starts from whenever this script first runs and grows more
+complete every day after that.
+
+Prices, dividends, splits: pulled from Yahoo Finance via yfinance.
 
 Every ticker that has ever been tracked keeps its own price file under
-data/prices/, even after it leaves the index or gets delisted, so the
-history is never silently rewritten to only show today's survivors.
+data/prices/, even after it delists, so history is never silently rewritten
+to only show today's survivors.
 """
 import datetime as dt
 import io
+import re
 import sys
 import time
 from pathlib import Path
@@ -26,35 +33,65 @@ PRICES = DATA / "prices"
 UNIVERSE_FILE = DATA / "universe.csv"
 EVENTS_FILE = DATA / "events.csv"
 
-WIKI_URL = "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
-# Wikipedia rejects requests without a browser-like User-Agent (403).
+NASDAQLISTED_URL = "https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt"
+OTHERLISTED_URL = "https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt"
+# otherlisted.txt covers multiple trading venues; we only want primary listings
+# on NYSE (N) and NYSE American / AMEX (A) -- excludes NYSE Arca (P), Cboe BZX
+# (Z), IEXG (V) and Chicago (M), which aren't primary listing exchanges.
+KEPT_OTHER_EXCHANGES = {"N", "A"}
+EXCHANGE_NAMES = {"N": "NYSE", "A": "NYSE American"}
+
 REQUEST_HEADERS = {"User-Agent": "Mozilla/5.0 (compatible; survivorship-bias-free-data-bot/1.0)"}
 
-UNIVERSE_COLUMNS = ["ticker", "name", "sector", "sub_industry", "status", "first_seen", "last_seen"]
+# Excludes warrants/rights/units/preferred stock/debt securities, which aren't
+# common equity. ETFs are exempted since fund names legitimately contain
+# words like "Bond" or "Preferred" (e.g. "iShares Core U.S. Aggregate Bond ETF").
+NON_COMMON_PATTERN = re.compile(r"\b(?:Warrants?|Rights?|Units?|Preferred|Notes?|Bonds?|Debentures?)\b", re.IGNORECASE)
+
+UNIVERSE_COLUMNS = ["ticker", "name", "exchange", "financial_status", "status", "first_seen", "last_seen"]
 EVENTS_COLUMNS = ["date", "ticker", "event", "detail"]
+
+CHUNK_SIZE = 250
+CHUNK_DELAY_SECONDS = 2
 
 
 def clean_ticker(t: str) -> str:
-    # Wikipedia uses "BRK.B" style, Yahoo Finance expects "BRK-B".
+    # Nasdaq Trader uses "." for share classes (e.g. "BF.B"); Yahoo Finance
+    # expects "-" (e.g. "BF-B"). Some tickers (warrants, preferred series) use
+    # conventions that don't map cleanly to Yahoo at all -- those simply fail
+    # to download and get flagged as NO_DATA rather than special-cased here.
     return str(t).strip().replace(".", "-")
 
 
-def fetch_wikipedia_tables():
-    resp = requests.get(WIKI_URL, headers=REQUEST_HEADERS, timeout=30)
+def fetch_listed_file(url: str) -> pd.DataFrame:
+    resp = requests.get(url, headers=REQUEST_HEADERS, timeout=30)
     resp.raise_for_status()
-    tables = pd.read_html(io.StringIO(resp.text))
-    constituents = tables[0][["Symbol", "Security", "GICS Sector", "GICS Sub-Industry"]].copy()
-    constituents.columns = ["ticker", "name", "sector", "sub_industry"]
-    constituents["ticker"] = constituents["ticker"].map(clean_ticker)
+    lines = resp.text.splitlines()[:-1]  # drop the "File Creation Time: ..." trailer row
+    return pd.read_csv(io.StringIO("\n".join(lines)), sep="|")
 
-    changes = tables[1].copy()
-    changes.columns = ["date", "added_ticker", "added_name", "removed_ticker", "removed_name", "reason"]
-    # First data row can be a repeated header (e.g. "Effective Date") depending on the page's markup.
-    changes["date"] = pd.to_datetime(changes["date"], errors="coerce")
-    changes = changes.dropna(subset=["date"])
-    for col in ("added_ticker", "removed_ticker"):
-        changes[col] = changes[col].map(lambda x: clean_ticker(x) if pd.notna(x) else x)
-    return constituents, changes
+
+def fetch_listed_universe() -> pd.DataFrame:
+    nasdaq = fetch_listed_file(NASDAQLISTED_URL)
+    nasdaq = nasdaq[nasdaq["Test Issue"] != "Y"].copy()
+    non_common = nasdaq["Security Name"].str.contains(NON_COMMON_PATTERN, na=False, regex=True) & (nasdaq["ETF"] != "Y")
+    nasdaq = nasdaq[~non_common]
+    nasdaq = nasdaq.rename(columns={"Symbol": "ticker", "Security Name": "name", "Financial Status": "financial_status"})
+    nasdaq["exchange"] = "NASDAQ"
+    nasdaq = nasdaq[["ticker", "name", "exchange", "financial_status"]]
+
+    other = fetch_listed_file(OTHERLISTED_URL)
+    other = other[(other["Test Issue"] != "Y") & (other["Exchange"].isin(KEPT_OTHER_EXCHANGES))].copy()
+    non_common2 = other["Security Name"].str.contains(NON_COMMON_PATTERN, na=False, regex=True) & (other["ETF"] != "Y")
+    other = other[~non_common2]
+    other = other.rename(columns={"ACT Symbol": "ticker", "Security Name": "name"})
+    other["exchange"] = other["Exchange"].map(EXCHANGE_NAMES)
+    other["financial_status"] = "N"
+    other = other[["ticker", "name", "exchange", "financial_status"]]
+
+    universe = pd.concat([nasdaq, other], ignore_index=True)
+    universe = universe.drop_duplicates(subset="ticker", keep="first")
+    universe["ticker"] = universe["ticker"].map(clean_ticker)
+    return universe.reset_index(drop=True)
 
 
 def load_universe() -> pd.DataFrame:
@@ -69,60 +106,56 @@ def load_events() -> pd.DataFrame:
     return pd.DataFrame(columns=EVENTS_COLUMNS)
 
 
-def log_event(events: pd.DataFrame, date, ticker, event, detail) -> pd.DataFrame:
-    already_logged = (
-        (events["date"] == date) & (events["ticker"] == ticker) & (events["event"] == event)
-    ).any()
-    if already_logged:
-        return events
-    events.loc[len(events)] = [date, ticker, event, detail]
-    return events
+class EventLog:
+    """Buffers new event rows and appends them in one batch at the end,
+    instead of growing a DataFrame one row at a time (too slow once the
+    universe is thousands of tickers instead of hundreds)."""
+
+    def __init__(self, events: pd.DataFrame):
+        self.events = events
+        self.seen = set(zip(events["date"], events["ticker"], events["event"]))
+        self.new_rows = []
+
+    def log(self, date, ticker, event, detail):
+        key = (date, ticker, event)
+        if key in self.seen:
+            return
+        self.seen.add(key)
+        self.new_rows.append({"date": date, "ticker": ticker, "event": event, "detail": detail})
+
+    def finalize(self) -> pd.DataFrame:
+        if not self.new_rows:
+            return self.events
+        return pd.concat([self.events, pd.DataFrame(self.new_rows)], ignore_index=True)
 
 
-def sync_index_changes(changes: pd.DataFrame, events: pd.DataFrame) -> pd.DataFrame:
-    """Backfill every dated ADD/REMOVE row from Wikipedia's change log that we
-    haven't recorded yet. Safe to run every day: new rows Wikipedia adds
-    over time get picked up, already-logged rows are skipped."""
-    for _, row in changes.iterrows():
-        if pd.notna(row["added_ticker"]):
-            events = log_event(events, row["date"], row["added_ticker"], "ADD", "S&P 500 addition")
-        if pd.notna(row["removed_ticker"]):
-            events = log_event(events, row["date"], row["removed_ticker"], "REMOVE", "S&P 500 removal")
-    return events
-
-
-def update_universe_and_events(today: pd.Timestamp):
-    constituents, changes = fetch_wikipedia_tables()
-    universe = load_universe()
-    events = load_events()
-
-    events = sync_index_changes(changes, events)
-
-    current_tickers = set(constituents["ticker"])
+def sync_universe(today: pd.Timestamp, listed: pd.DataFrame, universe: pd.DataFrame, log: EventLog):
+    current_tickers = set(listed["ticker"])
     known_tickers = set(universe["ticker"]) if not universe.empty else set()
+    exchange_map = listed.set_index("ticker")["exchange"]
 
     new_tickers = current_tickers - known_tickers
-    for t in sorted(new_tickers):
-        row = constituents.loc[constituents["ticker"] == t].iloc[0]
-        universe.loc[len(universe)] = [
-            t, row["name"], row["sector"], row["sub_industry"], "active", today, today,
-        ]
-        events = log_event(events, today, t, "ADD", "Newly observed in tracked universe")
+    if new_tickers:
+        new_rows = listed[listed["ticker"].isin(new_tickers)].copy()
+        new_rows["status"] = "active"
+        new_rows["first_seen"] = today
+        new_rows["last_seen"] = today
+        universe = pd.concat([universe, new_rows[UNIVERSE_COLUMNS]], ignore_index=True)
+        for t in sorted(new_tickers):
+            log.log(today, t, "ADD", f"Newly observed on {exchange_map.get(t, '?')}")
 
     if not universe.empty:
-        dropped = known_tickers - current_tickers
-        for t in sorted(dropped):
-            idx = universe.index[universe["ticker"] == t]
-            if len(idx) and universe.loc[idx[0], "status"] == "active":
-                universe.loc[idx[0], "status"] = "removed"
-                events = log_event(events, today, t, "REMOVE", "No longer in S&P 500 constituent list")
+        dropped_mask = (universe["status"] == "active") & ~universe["ticker"].isin(current_tickers)
+        for t in sorted(universe.loc[dropped_mask, "ticker"]):
+            log.log(today, t, "REMOVE", "No longer in NYSE/Nasdaq/AMEX listed directory")
+        universe.loc[dropped_mask, "status"] = "removed"
 
         active_mask = universe["ticker"].isin(current_tickers)
         universe.loc[active_mask, "last_seen"] = today
+        status_map = listed.set_index("ticker")["financial_status"]
+        universe.loc[active_mask, "financial_status"] = universe.loc[active_mask, "ticker"].map(status_map)
 
-    universe.to_csv(UNIVERSE_FILE, index=False)
-    events.sort_values(["date", "ticker"]).to_csv(EVENTS_FILE, index=False)
-    return universe, events, new_tickers
+    return universe, new_tickers
 
 
 def download_batch(tickers, period, retries=3):
@@ -168,6 +201,17 @@ def round_prices(df: pd.DataFrame) -> pd.DataFrame:
     return df
 
 
+# Reserved Windows device names (CON, PRN, AUX, NUL, COM1-9, LPT1-9) can't be
+# used as filenames on Windows even with an extension, e.g. "PRN.csv" -- and
+# this repo is meant to be clonable on Windows, not just run on Linux CI.
+WINDOWS_RESERVED_NAMES = {"CON", "PRN", "AUX", "NUL"} | {f"COM{i}" for i in range(1, 10)} | {f"LPT{i}" for i in range(1, 10)}
+
+
+def price_file_path(ticker: str) -> Path:
+    stem = ticker + "_" if ticker.upper() in WINDOWS_RESERVED_NAMES else ticker
+    return PRICES / f"{stem}.csv"
+
+
 def save_ticker_frame(ticker: str, df: pd.DataFrame):
     df = df.dropna(how="all")
     if df.empty:
@@ -175,7 +219,7 @@ def save_ticker_frame(ticker: str, df: pd.DataFrame):
     df = df.reset_index().rename(columns={"index": "Date"})
     df = round_prices(df)
     PRICES.mkdir(parents=True, exist_ok=True)
-    out_path = PRICES / f"{ticker}.csv"
+    out_path = price_file_path(ticker)
     if out_path.exists():
         existing = pd.read_csv(out_path, parse_dates=["Date"])
         combined = pd.concat([existing, df]).drop_duplicates(subset="Date", keep="last")
@@ -185,59 +229,71 @@ def save_ticker_frame(ticker: str, df: pd.DataFrame):
     combined.to_csv(out_path, index=False)
 
 
+def chunked(items, size):
+    items = sorted(items)
+    for i in range(0, len(items), size):
+        yield items[i:i + size]
+
+
 def download_prices(tickers, period):
     if not tickers:
         return set()
-    data = download_batch(tickers, period)
-    if data.empty:
-        return set()
-
-    single = len(tickers) == 1
     silent_failures = set()
-    for t in sorted(tickers):
-        try:
-            df = data if single else data[t]
-        except KeyError:
-            silent_failures.add(t)
+    chunks = list(chunked(tickers, CHUNK_SIZE))
+    for i, chunk in enumerate(chunks, 1):
+        print(f"  chunk {i}/{len(chunks)} ({len(chunk)} tickers, period={period})")
+        data = download_batch(chunk, period)
+        if data.empty:
+            silent_failures.update(chunk)
             continue
-        if df.dropna(how="all").empty:
-            silent_failures.add(t)
-            continue
-        save_ticker_frame(t, df)
+        single = len(chunk) == 1
+        for t in chunk:
+            try:
+                df = data if single else data[t]
+            except KeyError:
+                silent_failures.add(t)
+                continue
+            if df.dropna(how="all").empty:
+                silent_failures.add(t)
+                continue
+            save_ticker_frame(t, df)
+        if i < len(chunks):
+            time.sleep(CHUNK_DELAY_SECONDS)
     return silent_failures
-
-
-def flag_possible_delistings(universe, events, today, silent_failures):
-    if not silent_failures:
-        return events
-    for t in sorted(silent_failures):
-        idx = universe.index[universe["ticker"] == t]
-        if len(idx) and universe.loc[idx[0], "status"] == "active":
-            events = log_event(
-                events, today, t, "NO_DATA",
-                "Active in universe but Yahoo Finance returned no data (possible delisting)",
-            )
-    return events
 
 
 def main():
     DATA.mkdir(parents=True, exist_ok=True)
-
     today = pd.Timestamp(dt.date.today())
-    universe, events, new_tickers = update_universe_and_events(today)
+
+    listed = fetch_listed_universe()
+    universe = load_universe()
+    events = load_events()
+    log = EventLog(events)
+
+    universe, new_tickers = sync_universe(today, listed, universe, log)
 
     active_tickers = set(universe.loc[universe["status"] == "active", "ticker"])
     silent_failures = set()
 
     if new_tickers:
-        print(f"Backfilling full history for {len(new_tickers)} new ticker(s): {sorted(new_tickers)}")
+        print(f"Backfilling full history for {len(new_tickers)} new ticker(s)")
         silent_failures |= download_prices(new_tickers, period="max")
 
     daily_tickers = active_tickers - new_tickers
     print(f"Fetching latest daily bars for {len(daily_tickers)} ticker(s)")
     silent_failures |= download_prices(daily_tickers, period="5d")
 
-    events = flag_possible_delistings(universe, events, today, silent_failures)
+    for t in sorted(silent_failures):
+        idx = universe.index[universe["ticker"] == t]
+        if len(idx) and universe.loc[idx[0], "status"] == "active":
+            log.log(
+                today, t, "NO_DATA",
+                "Active in universe but Yahoo Finance returned no data (possible delisting)",
+            )
+
+    universe.to_csv(UNIVERSE_FILE, index=False)
+    events = log.finalize()
     events.sort_values(["date", "ticker"]).to_csv(EVENTS_FILE, index=False)
 
     print(f"Done. Universe size: {len(universe)}, active: {len(active_tickers)}, events: {len(events)}")
