@@ -221,6 +221,8 @@ def flag_possible_delistings(universe, events, today, silent_failures):
 
 
 def main():
+    DATA.mkdir(parents=True, exist_ok=True)
+
     today = pd.Timestamp(dt.date.today())
     universe, events, new_tickers = update_universe_and_events(today)
 
