@@ -1,0 +1,1266 @@
+date,ticker,event,detail
+1976-07-01,AYE,REMOVE,S&P 500 removal
+1976-07-01,BUD,ADD,S&P 500 addition
+1976-07-01,DIS,ADD,S&P 500 addition
+1976-07-01,HNG,REMOVE,S&P 500 removal
+1994-09-30,MCK,REMOVE,S&P 500 removal
+1994-09-30,NCC,ADD,S&P 500 addition
+1997-06-17,CCR,ADD,S&P 500 addition
+1997-06-17,USL,REMOVE,S&P 500 removal
+1998-12-11,AN,REMOVE,S&P 500 removal
+1998-12-11,CCL,ADD,S&P 500 addition
+1998-12-11,CPWR,ADD,S&P 500 addition
+1998-12-11,FSR,ADD,S&P 500 addition
+1998-12-11,GRN,REMOVE,S&P 500 removal
+1998-12-11,SUN,REMOVE,S&P 500 removal
+1999-04-12,ACT,ADD,S&P 500 addition
+1999-06-09,HPH,REMOVE,S&P 500 removal
+1999-06-09,WLP,ADD,S&P 500 addition
+1999-12-08,LDW,REMOVE,S&P 500 removal
+1999-12-08,YHOO,ADD,S&P 500 addition
+2000-06-07,SBUX,ADD,S&P 500 addition
+2000-06-07,SMS,REMOVE,S&P 500 removal
+2000-06-12,CVG,ADD,S&P 500 addition
+2000-06-12,TMC,REMOVE,S&P 500 removal
+2000-07-27,JDSU,ADD,S&P 500 addition
+2000-07-27,RAD,REMOVE,S&P 500 removal
+2000-12-05,ABK,ADD,S&P 500 addition
+2000-12-05,AYE,ADD,S&P 500 addition
+2000-12-05,BS,REMOVE,S&P 500 removal
+2000-12-05,CCK,REMOVE,S&P 500 removal
+2000-12-05,GRA,REMOVE,S&P 500 removal
+2000-12-05,INTU,ADD,S&P 500 addition
+2000-12-05,OI,REMOVE,S&P 500 removal
+2000-12-05,SBL,ADD,S&P 500 addition
+2003-09-25,ESRX,ADD,S&P 500 addition
+2003-09-25,QTRN,REMOVE,S&P 500 removal
+2005-07-01,GLK,REMOVE,S&P 500 removal
+2005-07-01,STZ,ADD,S&P 500 addition
+2005-11-18,AMZN,ADD,S&P 500 addition
+2005-11-18,T,REMOVE,S&P 500 removal
+2006-06-02,ABS,REMOVE,S&P 500 removal
+2006-06-02,JNPR,ADD,S&P 500 addition
+2007-01-10,AVB,ADD,S&P 500 addition
+2007-01-10,SBL,REMOVE,S&P 500 removal
+2007-03-30,KFT,ADD,S&P 500 addition
+2007-03-30,TSG,REMOVE,S&P 500 removal
+2007-07-02,ADCT,REMOVE,S&P 500 removal
+2007-07-02,DFS,ADD,S&P 500 addition
+2007-08-24,KSE,REMOVE,S&P 500 removal
+2007-08-24,LUK,ADD,S&P 500 addition
+2007-09-26,FDC,REMOVE,S&P 500 removal
+2007-09-26,ICE,ADD,S&P 500 addition
+2007-09-27,MXIM,REMOVE,S&P 500 removal
+2007-09-27,TSO,ADD,S&P 500 addition
+2007-10-01,NCR,REMOVE,S&P 500 removal
+2007-10-01,TDC,ADD,S&P 500 addition
+2007-10-02,EXPE,ADD,S&P 500 addition
+2007-10-02,SLR,REMOVE,S&P 500 removal
+2007-10-26,AV,REMOVE,S&P 500 removal
+2007-10-26,JEC,ADD,S&P 500 addition
+2007-12-13,DJ,REMOVE,S&P 500 removal
+2007-12-13,GME,ADD,S&P 500 addition
+2007-12-20,RRC,ADD,S&P 500 addition
+2007-12-20,TRB,REMOVE,S&P 500 removal
+2008-06-10,ABK,REMOVE,S&P 500 removal
+2008-06-10,LO,ADD,S&P 500 addition
+2008-06-23,BC,REMOVE,S&P 500 removal
+2008-06-23,COG,ADD,S&P 500 addition
+2008-06-23,MEE,ADD,S&P 500 addition
+2008-06-23,OMX,REMOVE,S&P 500 removal
+2008-07-01,AKS,ADD,S&P 500 addition
+2008-07-01,CFC,REMOVE,S&P 500 removal
+2008-09-12,CRM,ADD,S&P 500 addition
+2008-09-12,FAST,ADD,S&P 500 addition
+2008-09-12,FNM,REMOVE,S&P 500 removal
+2008-09-12,FRE,REMOVE,S&P 500 removal
+2008-09-16,HRS,ADD,S&P 500 addition
+2008-09-16,LEH,REMOVE,S&P 500 removal
+2008-12-31,OI,ADD,S&P 500 addition
+2008-12-31,WB,REMOVE,S&P 500 removal
+2009-03-03,ACAS,REMOVE,S&P 500 removal
+2009-03-03,HRL,ADD,S&P 500 addition
+2009-03-03,JNY,REMOVE,S&P 500 removal
+2009-03-03,VTR,ADD,S&P 500 addition
+2009-06-05,COV,REMOVE,S&P 500 removal
+2009-06-05,FTI,ADD,S&P 500 addition
+2009-06-25,TEL,REMOVE,S&P 500 removal
+2009-06-29,PCS,ADD,S&P 500 addition
+2009-08-19,CTX,REMOVE,S&P 500 removal
+2009-08-19,FMC,ADD,S&P 500 addition
+2009-09-28,ARG,ADD,S&P 500 addition
+2009-09-28,CBE,REMOVE,S&P 500 removal
+2009-11-03,PCLN,ADD,S&P 500 addition
+2009-11-03,SGP,REMOVE,S&P 500 removal
+2009-12-18,CIEN,REMOVE,S&P 500 removal
+2009-12-18,CLF,ADD,S&P 500 addition
+2009-12-18,CVG,REMOVE,S&P 500 removal
+2009-12-18,DYN,REMOVE,S&P 500 removal
+2009-12-18,KBH,REMOVE,S&P 500 removal
+2009-12-18,MBI,REMOVE,S&P 500 removal
+2009-12-18,MJN,ADD,S&P 500 addition
+2009-12-18,ROST,ADD,S&P 500 addition
+2009-12-18,SAI,ADD,S&P 500 addition
+2009-12-18,V,ADD,S&P 500 addition
+2010-02-26,HP,ADD,S&P 500 addition
+2010-02-26,RX,REMOVE,S&P 500 removal
+2010-04-29,BJS,REMOVE,S&P 500 removal
+2010-04-29,CERN,ADD,S&P 500 addition
+2010-06-28,KMX,ADD,S&P 500 addition
+2010-06-28,XTO,REMOVE,S&P 500 removal
+2010-06-30,QEP,ADD,S&P 500 addition
+2010-06-30,STR,REMOVE,S&P 500 removal
+2010-07-14,CB,ADD,S&P 500 addition
+2010-07-14,MIL,REMOVE,S&P 500 removal
+2010-08-26,SII,REMOVE,S&P 500 removal
+2010-08-26,TYC,ADD,S&P 500 addition
+2010-11-17,IR,ADD,S&P 500 addition
+2010-11-17,PTV,REMOVE,S&P 500 removal
+2010-12-17,CVC,ADD,S&P 500 addition
+2010-12-17,EK,REMOVE,S&P 500 removal
+2010-12-17,FFIV,ADD,S&P 500 addition
+2010-12-17,KG,REMOVE,S&P 500 removal
+2010-12-17,NFLX,ADD,S&P 500 addition
+2010-12-17,NFX,ADD,S&P 500 addition
+2010-12-17,NYT,REMOVE,S&P 500 removal
+2010-12-17,ODP,REMOVE,S&P 500 removal
+2011-01-03,MDP,REMOVE,S&P 500 removal
+2011-01-03,MMI,ADD,S&P 500 addition
+2011-02-25,AYE,REMOVE,S&P 500 removal
+2011-02-25,JOYG,ADD,S&P 500 addition
+2011-02-28,COV,ADD,S&P 500 addition
+2011-02-28,MFE,REMOVE,S&P 500 removal
+2011-03-31,EW,ADD,S&P 500 addition
+2011-03-31,Q,REMOVE,S&P 500 removal
+2011-04-01,BLK,ADD,S&P 500 addition
+2011-04-01,GENZ,REMOVE,S&P 500 removal
+2011-04-27,CMG,ADD,S&P 500 addition
+2011-04-27,NOVL,REMOVE,S&P 500 removal
+2011-06-01,ANR,ADD,S&P 500 addition
+2011-06-01,MEE,REMOVE,S&P 500 removal
+2011-06-30,MPC,ADD,S&P 500 addition
+2011-06-30,RSH,REMOVE,S&P 500 removal
+2011-07-05,ACN,ADD,S&P 500 addition
+2011-07-05,MI,REMOVE,S&P 500 removal
+2011-09-23,MOS,ADD,S&P 500 addition
+2011-09-23,NSM,REMOVE,S&P 500 removal
+2011-10-14,CEPH,REMOVE,S&P 500 removal
+2011-10-14,TEL,ADD,S&P 500 addition
+2011-10-31,ITT,REMOVE,S&P 500 removal
+2011-10-31,XYL,ADD,S&P 500 addition
+2011-11-18,CBE,ADD,S&P 500 addition
+2011-11-18,JNS,REMOVE,S&P 500 removal
+2011-12-12,GAS,ADD,S&P 500 addition
+2011-12-12,GAS,REMOVE,S&P 500 removal
+2011-12-16,AKS,REMOVE,S&P 500 removal
+2011-12-16,BWA,ADD,S&P 500 addition
+2011-12-16,DLTR,ADD,S&P 500 addition
+2011-12-16,MWW,REMOVE,S&P 500 removal
+2011-12-16,PRGO,ADD,S&P 500 addition
+2011-12-16,WFR,REMOVE,S&P 500 removal
+2011-12-20,TLAB,REMOVE,S&P 500 removal
+2011-12-20,TRIP,ADD,S&P 500 addition
+2011-12-31,CPWR,REMOVE,S&P 500 removal
+2011-12-31,WPX,ADD,S&P 500 addition
+2012-03-13,CCI,ADD,S&P 500 addition
+2012-03-13,CEG,REMOVE,S&P 500 removal
+2012-04-03,FOSL,ADD,S&P 500 addition
+2012-04-03,MHS,REMOVE,S&P 500 removal
+2012-04-23,PSX,ADD,S&P 500 addition
+2012-04-23,SVU,REMOVE,S&P 500 removal
+2012-05-17,EP,REMOVE,S&P 500 removal
+2012-05-17,KMI,ADD,S&P 500 addition
+2012-05-21,ALXN,ADD,S&P 500 addition
+2012-05-21,MMI,REMOVE,S&P 500 removal
+2012-06-05,LRCX,ADD,S&P 500 addition
+2012-06-05,NVLS,REMOVE,S&P 500 removal
+2012-06-29,MNST,ADD,S&P 500 addition
+2012-06-29,SLE,REMOVE,S&P 500 removal
+2012-07-02,PGN,REMOVE,S&P 500 removal
+2012-07-02,STX,ADD,S&P 500 addition
+2012-07-31,ESV,ADD,S&P 500 addition
+2012-07-31,GR,REMOVE,S&P 500 removal
+2012-09-05,LYB,ADD,S&P 500 addition
+2012-09-05,SHLD,REMOVE,S&P 500 removal
+2012-10-01,ADT,ADD,S&P 500 addition
+2012-10-01,DV,REMOVE,S&P 500 removal
+2012-10-01,LXK,REMOVE,S&P 500 removal
+2012-10-01,PNR,ADD,S&P 500 addition
+2012-10-02,ANR,REMOVE,S&P 500 removal
+2012-10-02,KFT,REMOVE,S&P 500 removal
+2012-10-02,KRFT,ADD,S&P 500 addition
+2012-10-02,MDLZ,ADD,S&P 500 addition
+2012-10-10,PETM,ADD,S&P 500 addition
+2012-10-10,SUN,REMOVE,S&P 500 removal
+2012-12-03,CBE,REMOVE,S&P 500 removal
+2012-12-03,DG,ADD,S&P 500 addition
+2012-12-11,GRMN,ADD,S&P 500 addition
+2012-12-11,RRD,REMOVE,S&P 500 removal
+2012-12-21,DLPH,ADD,S&P 500 addition
+2012-12-21,TIE,REMOVE,S&P 500 removal
+2013-01-02,ABBV,ADD,S&P 500 addition
+2013-01-02,FII,REMOVE,S&P 500 removal
+2013-02-15,BIG,REMOVE,S&P 500 removal
+2013-02-15,PVH,ADD,S&P 500 addition
+2013-04-30,PCS,REMOVE,S&P 500 removal
+2013-04-30,REGN,ADD,S&P 500 addition
+2013-05-08,CVH,REMOVE,S&P 500 removal
+2013-05-08,MAC,ADD,S&P 500 addition
+2013-05-23,DF,REMOVE,S&P 500 removal
+2013-05-23,KSU,ADD,S&P 500 addition
+2013-06-06,GM,ADD,S&P 500 addition
+2013-06-06,HNZ,REMOVE,S&P 500 removal
+2013-06-21,FHN,REMOVE,S&P 500 removal
+2013-06-21,ZTS,ADD,S&P 500 addition
+2013-07-01,APOL,REMOVE,S&P 500 removal
+2013-07-01,NWSA,ADD,S&P 500 addition
+2013-07-08,NLSN,ADD,S&P 500 addition
+2013-07-08,S,REMOVE,S&P 500 removal
+2013-09-10,BMC,REMOVE,S&P 500 removal
+2013-09-10,DAL,ADD,S&P 500 addition
+2013-09-20,AMD,REMOVE,S&P 500 removal
+2013-09-20,AME,ADD,S&P 500 addition
+2013-09-20,SAI,REMOVE,S&P 500 removal
+2013-09-20,VRTX,ADD,S&P 500 addition
+2013-10-29,DELL,REMOVE,S&P 500 removal
+2013-10-29,RIG,ADD,S&P 500 addition
+2013-11-13,KORS,ADD,S&P 500 addition
+2013-11-13,NYX,REMOVE,S&P 500 removal
+2013-12-02,ALLE,ADD,S&P 500 addition
+2013-12-02,JCP,REMOVE,S&P 500 removal
+2013-12-10,GGP,ADD,S&P 500 addition
+2013-12-10,MOLX,REMOVE,S&P 500 removal
+2013-12-23,ADS,ADD,S&P 500 addition
+2013-12-23,ANF,REMOVE,S&P 500 removal
+2013-12-23,FB,ADD,S&P 500 addition
+2013-12-23,JDSU,REMOVE,S&P 500 removal
+2013-12-23,MHK,ADD,S&P 500 addition
+2013-12-23,TER,REMOVE,S&P 500 removal
+2014-01-24,LIFE,REMOVE,S&P 500 removal
+2014-01-24,TSCO,ADD,S&P 500 addition
+2014-03-21,GMCR,ADD,S&P 500 addition
+2014-03-21,WPX,REMOVE,S&P 500 removal
+2014-04-02,CLF,REMOVE,S&P 500 removal
+2014-04-02,ESS,ADD,S&P 500 addition
+2014-04-03,GOOGL,ADD,S&P 500 addition
+2014-05-01,BEAM,REMOVE,S&P 500 removal
+2014-05-01,NAVI,ADD,S&P 500 addition
+2014-05-01,SLM,REMOVE,S&P 500 removal
+2014-05-01,UA,ADD,S&P 500 addition
+2014-05-08,AVGO,ADD,S&P 500 addition
+2014-05-08,LSI,REMOVE,S&P 500 removal
+2014-06-20,IGT,REMOVE,S&P 500 removal
+2014-06-20,XEC,ADD,S&P 500 addition
+2014-07-01,AMG,ADD,S&P 500 addition
+2014-07-01,FRX,REMOVE,S&P 500 removal
+2014-07-02,MLM,ADD,S&P 500 addition
+2014-07-02,X,REMOVE,S&P 500 removal
+2014-08-06,DISCK,ADD,S&P 500 addition
+2014-08-18,MNK,ADD,S&P 500 addition
+2014-08-18,RDC,REMOVE,S&P 500 removal
+2014-09-20,BTU,REMOVE,S&P 500 removal
+2014-09-20,GHC,REMOVE,S&P 500 removal
+2014-09-20,UHS,ADD,S&P 500 addition
+2014-09-20,URI,ADD,S&P 500 addition
+2014-11-05,JBL,REMOVE,S&P 500 removal
+2014-11-05,LVLT,ADD,S&P 500 addition
+2014-12-05,BMS,REMOVE,S&P 500 removal
+2014-12-05,RCL,ADD,S&P 500 addition
+2015-01-27,COV,REMOVE,S&P 500 removal
+2015-01-27,ENDP,ADD,S&P 500 addition
+2015-01-27,HCA,ADD,S&P 500 addition
+2015-01-27,SWY,REMOVE,S&P 500 removal
+2015-03-12,PETM,REMOVE,S&P 500 removal
+2015-03-12,SWKS,ADD,S&P 500 addition
+2015-03-18,CFN,REMOVE,S&P 500 removal
+2015-03-18,HSIC,ADD,S&P 500 addition
+2015-03-23,AAL,ADD,S&P 500 addition
+2015-03-23,AGN,REMOVE,S&P 500 removal
+2015-03-23,AVP,REMOVE,S&P 500 removal
+2015-03-23,DNR,REMOVE,S&P 500 removal
+2015-03-23,EQIX,ADD,S&P 500 addition
+2015-03-23,HBI,ADD,S&P 500 addition
+2015-03-23,NBR,REMOVE,S&P 500 removal
+2015-03-23,SLG,ADD,S&P 500 addition
+2015-04-07,O,ADD,S&P 500 addition
+2015-04-07,WIN,REMOVE,S&P 500 removal
+2015-06-11,LO,REMOVE,S&P 500 removal
+2015-06-11,QRVO,ADD,S&P 500 addition
+2015-07-01,BXLT,ADD,S&P 500 addition
+2015-07-01,JBHT,ADD,S&P 500 addition
+2015-07-01,QEP,REMOVE,S&P 500 removal
+2015-07-01,TEG,REMOVE,S&P 500 removal
+2015-07-02,ATI,REMOVE,S&P 500 removal
+2015-07-02,CPGX,ADD,S&P 500 addition
+2015-07-06,KHC,ADD,S&P 500 addition
+2015-07-06,KRFT,REMOVE,S&P 500 removal
+2015-07-08,AAP,ADD,S&P 500 addition
+2015-07-08,FDO,REMOVE,S&P 500 removal
+2015-07-20,NE,REMOVE,S&P 500 removal
+2015-07-20,PYPL,ADD,S&P 500 addition
+2015-07-29,DTV,REMOVE,S&P 500 removal
+2015-07-29,SIG,ADD,S&P 500 addition
+2015-08-28,ATVI,ADD,S&P 500 addition
+2015-08-28,PLL,REMOVE,S&P 500 removal
+2015-09-02,HSP,REMOVE,S&P 500 removal
+2015-09-02,UAL,ADD,S&P 500 addition
+2015-09-18,CMCSK,ADD,S&P 500 addition
+2015-09-18,FOX,ADD,S&P 500 addition
+2015-09-18,NWS,ADD,S&P 500 addition
+2015-10-07,JOY,REMOVE,S&P 500 removal
+2015-10-07,VRSK,ADD,S&P 500 addition
+2015-11-02,HCBK,REMOVE,S&P 500 removal
+2015-11-02,HPE,ADD,S&P 500 addition
+2015-11-18,GNW,REMOVE,S&P 500 removal
+2015-11-18,SYF,ADD,S&P 500 addition
+2015-11-19,ILMN,ADD,S&P 500 addition
+2015-11-19,SIAL,REMOVE,S&P 500 removal
+2015-12-01,CSC,REMOVE,S&P 500 removal
+2015-12-01,CSRA,ADD,S&P 500 addition
+2015-12-15,CMCSK,REMOVE,S&P 500 removal
+2015-12-29,ALTR,REMOVE,S&P 500 removal
+2015-12-29,CHD,ADD,S&P 500 addition
+2016-01-05,FOSL,REMOVE,S&P 500 removal
+2016-01-05,WLTW,ADD,S&P 500 addition
+2016-01-19,ACE,REMOVE,S&P 500 removal
+2016-01-19,EXR,ADD,S&P 500 addition
+2016-02-01,BRCM,REMOVE,S&P 500 removal
+2016-02-01,CFG,ADD,S&P 500 addition
+2016-02-01,FRT,ADD,S&P 500 addition
+2016-02-01,PCP,REMOVE,S&P 500 removal
+2016-02-22,CXO,ADD,S&P 500 addition
+2016-02-22,PCL,REMOVE,S&P 500 removal
+2016-03-04,AWK,ADD,S&P 500 addition
+2016-03-04,CNX,REMOVE,S&P 500 removal
+2016-03-07,GMCR,REMOVE,S&P 500 removal
+2016-03-07,UDR,ADD,S&P 500 addition
+2016-03-30,CNC,ADD,S&P 500 addition
+2016-03-30,ESV,REMOVE,S&P 500 removal
+2016-03-30,HOLX,ADD,S&P 500 addition
+2016-03-30,POM,REMOVE,S&P 500 removal
+2016-04-04,CAM,REMOVE,S&P 500 removal
+2016-04-04,FL,ADD,S&P 500 addition
+2016-04-08,UA,ADD,S&P 500 addition
+2016-04-18,THC,REMOVE,S&P 500 removal
+2016-04-18,ULTA,ADD,S&P 500 addition
+2016-04-25,GME,REMOVE,S&P 500 removal
+2016-04-25,GPN,ADD,S&P 500 addition
+2016-05-03,ADT,REMOVE,S&P 500 removal
+2016-05-03,AYI,ADD,S&P 500 addition
+2016-05-13,ALK,ADD,S&P 500 addition
+2016-05-13,SNDK,REMOVE,S&P 500 removal
+2016-05-18,DLR,ADD,S&P 500 addition
+2016-05-18,TWC,REMOVE,S&P 500 removal
+2016-05-23,ARG,REMOVE,S&P 500 removal
+2016-05-23,LKQ,ADD,S&P 500 addition
+2016-05-31,AJG,ADD,S&P 500 addition
+2016-05-31,CCE,REMOVE,S&P 500 removal
+2016-06-03,BXLT,REMOVE,S&P 500 removal
+2016-06-03,TDG,ADD,S&P 500 addition
+2016-06-22,CVC,REMOVE,S&P 500 removal
+2016-06-22,FBHS,ADD,S&P 500 addition
+2016-07-01,ALB,ADD,S&P 500 addition
+2016-07-01,GAS,REMOVE,S&P 500 removal
+2016-07-01,LNT,ADD,S&P 500 addition
+2016-07-01,TE,REMOVE,S&P 500 removal
+2016-07-05,CPGX,REMOVE,S&P 500 removal
+2016-07-05,FTV,ADD,S&P 500 addition
+2016-09-06,MTD,ADD,S&P 500 addition
+2016-09-06,TYC,REMOVE,S&P 500 removal
+2016-09-08,CHTR,ADD,S&P 500 addition
+2016-09-08,EMC,REMOVE,S&P 500 removal
+2016-09-22,COO,ADD,S&P 500 addition
+2016-09-22,HOT,REMOVE,S&P 500 removal
+2016-09-30,COTY,ADD,S&P 500 addition
+2016-09-30,DO,REMOVE,S&P 500 removal
+2016-11-01,AA,REMOVE,S&P 500 removal
+2016-11-01,ARNC,ADD,S&P 500 addition
+2016-12-02,EVHC,ADD,S&P 500 addition
+2016-12-02,LM,REMOVE,S&P 500 removal
+2016-12-02,MAA,ADD,S&P 500 addition
+2016-12-02,OI,REMOVE,S&P 500 removal
+2017-01-05,IDXX,ADD,S&P 500 addition
+2017-01-05,STJ,REMOVE,S&P 500 removal
+2017-02-28,INCY,ADD,S&P 500 addition
+2017-02-28,SE,REMOVE,S&P 500 removal
+2017-03-01,CBOE,ADD,S&P 500 addition
+2017-03-01,PBI,REMOVE,S&P 500 removal
+2017-03-02,ENDP,REMOVE,S&P 500 removal
+2017-03-02,REG,ADD,S&P 500 addition
+2017-03-13,DISH,ADD,S&P 500 addition
+2017-03-13,LLTC,REMOVE,S&P 500 removal
+2017-03-16,HAR,REMOVE,S&P 500 removal
+2017-03-16,SNPS,ADD,S&P 500 addition
+2017-03-20,AMD,ADD,S&P 500 addition
+2017-03-20,ARE,ADD,S&P 500 addition
+2017-03-20,FSLR,REMOVE,S&P 500 removal
+2017-03-20,FTR,REMOVE,S&P 500 removal
+2017-03-20,RJF,ADD,S&P 500 addition
+2017-03-20,URBN,REMOVE,S&P 500 removal
+2017-04-04,DXC,ADD,S&P 500 addition
+2017-04-04,SWN,REMOVE,S&P 500 removal
+2017-04-05,DNB,REMOVE,S&P 500 removal
+2017-04-05,IT,ADD,S&P 500 addition
+2017-06-02,INFO,ADD,S&P 500 addition
+2017-06-02,TGNA,REMOVE,S&P 500 removal
+2017-06-19,ALGN,ADD,S&P 500 addition
+2017-06-19,ANSS,ADD,S&P 500 addition
+2017-06-19,HLT,ADD,S&P 500 addition
+2017-06-19,MJN,REMOVE,S&P 500 removal
+2017-06-19,R,REMOVE,S&P 500 removal
+2017-06-19,RE,ADD,S&P 500 addition
+2017-06-19,TDC,REMOVE,S&P 500 removal
+2017-06-19,YHOO,REMOVE,S&P 500 removal
+2017-07-07,BHI,REMOVE,S&P 500 removal
+2017-07-07,BKR,ADD,S&P 500 addition
+2017-07-26,AOS,ADD,S&P 500 addition
+2017-07-26,BBBY,REMOVE,S&P 500 removal
+2017-07-26,DRE,ADD,S&P 500 addition
+2017-07-26,MGM,ADD,S&P 500 addition
+2017-07-26,MNK,REMOVE,S&P 500 removal
+2017-07-26,MUR,REMOVE,S&P 500 removal
+2017-07-26,PKG,ADD,S&P 500 addition
+2017-07-26,RAI,REMOVE,S&P 500 removal
+2017-07-26,RIG,REMOVE,S&P 500 removal
+2017-07-26,RMD,ADD,S&P 500 addition
+2017-08-08,AN,REMOVE,S&P 500 removal
+2017-08-08,BHF,ADD,S&P 500 addition
+2017-08-29,Q,ADD,S&P 500 addition
+2017-08-29,WFM,REMOVE,S&P 500 removal
+2017-09-01,DD,REMOVE,S&P 500 removal
+2017-09-01,DOW,REMOVE,S&P 500 removal
+2017-09-01,DWDP,ADD,S&P 500 addition
+2017-09-01,SBAC,ADD,S&P 500 addition
+2017-09-18,CDNS,ADD,S&P 500 addition
+2017-09-18,SPLS,REMOVE,S&P 500 removal
+2017-10-13,LVLT,REMOVE,S&P 500 removal
+2017-10-13,NCLH,ADD,S&P 500 addition
+2018-01-03,BCR,REMOVE,S&P 500 removal
+2018-01-03,HII,ADD,S&P 500 addition
+2018-03-07,IPGP,ADD,S&P 500 addition
+2018-03-07,SNI,REMOVE,S&P 500 removal
+2018-03-19,CHK,REMOVE,S&P 500 removal
+2018-03-19,NKTR,ADD,S&P 500 addition
+2018-03-19,PDCO,REMOVE,S&P 500 removal
+2018-03-19,SIG,REMOVE,S&P 500 removal
+2018-03-19,SIVB,ADD,S&P 500 addition
+2018-03-19,TTWO,ADD,S&P 500 addition
+2018-04-04,CSRA,REMOVE,S&P 500 removal
+2018-04-04,MSCI,ADD,S&P 500 addition
+2018-05-31,ABMD,ADD,S&P 500 addition
+2018-05-31,WYN,REMOVE,S&P 500 removal
+2018-06-05,EVRG,ADD,S&P 500 addition
+2018-06-05,NAVI,REMOVE,S&P 500 removal
+2018-06-07,MON,REMOVE,S&P 500 removal
+2018-06-07,TWTR,ADD,S&P 500 addition
+2018-06-18,AYI,REMOVE,S&P 500 removal
+2018-06-18,BR,ADD,S&P 500 addition
+2018-06-18,HFC,ADD,S&P 500 addition
+2018-06-18,RRC,REMOVE,S&P 500 removal
+2018-06-20,FLT,ADD,S&P 500 addition
+2018-06-20,TWX,REMOVE,S&P 500 removal
+2018-07-02,CPRT,ADD,S&P 500 addition
+2018-07-02,DPS,REMOVE,S&P 500 removal
+2018-08-28,ANET,ADD,S&P 500 addition
+2018-08-28,GGP,REMOVE,S&P 500 removal
+2018-09-14,WCG,ADD,S&P 500 addition
+2018-09-14,XL,REMOVE,S&P 500 removal
+2018-10-01,ANDV,REMOVE,S&P 500 removal
+2018-10-01,ROL,ADD,S&P 500 addition
+2018-10-11,EVHC,REMOVE,S&P 500 removal
+2018-10-11,FTNT,ADD,S&P 500 addition
+2018-11-06,CA,REMOVE,S&P 500 removal
+2018-11-06,KEYS,ADD,S&P 500 addition
+2018-11-13,EQT,REMOVE,S&P 500 removal
+2018-11-13,JKHY,ADD,S&P 500 addition
+2018-12-03,AET,REMOVE,S&P 500 removal
+2018-12-03,COL,REMOVE,S&P 500 removal
+2018-12-03,FANG,ADD,S&P 500 addition
+2018-12-03,LW,ADD,S&P 500 addition
+2018-12-03,MXIM,ADD,S&P 500 addition
+2018-12-03,SRCL,REMOVE,S&P 500 removal
+2018-12-24,CE,ADD,S&P 500 addition
+2018-12-24,ESRX,REMOVE,S&P 500 removal
+2019-01-02,FRC,ADD,S&P 500 addition
+2019-01-02,SCG,REMOVE,S&P 500 removal
+2019-01-18,PCG,REMOVE,S&P 500 removal
+2019-01-18,TFX,ADD,S&P 500 addition
+2019-02-15,ATO,ADD,S&P 500 addition
+2019-02-15,NFX,REMOVE,S&P 500 removal
+2019-02-27,GT,REMOVE,S&P 500 removal
+2019-02-27,WAB,ADD,S&P 500 addition
+2019-03-19,FOX,ADD,S&P 500 addition
+2019-03-19,FOX,REMOVE,S&P 500 removal
+2019-03-19,FOXA,ADD,S&P 500 addition
+2019-03-19,FOXA,REMOVE,S&P 500 removal
+2019-04-02,BHF,REMOVE,S&P 500 removal
+2019-04-02,DOW,ADD,S&P 500 addition
+2019-06-03,CTVA,ADD,S&P 500 addition
+2019-06-03,DD,ADD,S&P 500 addition
+2019-06-03,DWDP,REMOVE,S&P 500 removal
+2019-06-03,FLR,REMOVE,S&P 500 removal
+2019-06-07,BMS,ADD,S&P 500 addition
+2019-06-07,MAT,REMOVE,S&P 500 removal
+2019-06-11,AMCR,ADD,S&P 500 addition
+2019-06-11,BMS,REMOVE,S&P 500 removal
+2019-07-01,LLL,REMOVE,S&P 500 removal
+2019-07-01,MKTX,ADD,S&P 500 addition
+2019-07-15,RHT,REMOVE,S&P 500 removal
+2019-07-15,TMUS,ADD,S&P 500 addition
+2019-08-09,APC,REMOVE,S&P 500 removal
+2019-08-09,FL,REMOVE,S&P 500 removal
+2019-08-09,IEX,ADD,S&P 500 addition
+2019-08-09,LDOS,ADD,S&P 500 addition
+2019-09-23,CDW,ADD,S&P 500 addition
+2019-09-23,TSS,REMOVE,S&P 500 removal
+2019-09-26,JEF,REMOVE,S&P 500 removal
+2019-09-26,NVR,ADD,S&P 500 addition
+2019-10-03,LVS,ADD,S&P 500 addition
+2019-10-03,NKTR,REMOVE,S&P 500 removal
+2019-11-21,CELG,REMOVE,S&P 500 removal
+2019-11-21,NOW,ADD,S&P 500 addition
+2019-12-05,VIAB,REMOVE,S&P 500 removal
+2019-12-05,WRB,ADD,S&P 500 addition
+2019-12-09,ODFL,ADD,S&P 500 addition
+2019-12-09,STI,REMOVE,S&P 500 removal
+2019-12-23,AMG,REMOVE,S&P 500 removal
+2019-12-23,LYV,ADD,S&P 500 addition
+2019-12-23,MAC,REMOVE,S&P 500 removal
+2019-12-23,STE,ADD,S&P 500 addition
+2019-12-23,TRIP,REMOVE,S&P 500 removal
+2019-12-23,ZBRA,ADD,S&P 500 addition
+2020-01-28,PAYC,ADD,S&P 500 addition
+2020-01-28,WCG,REMOVE,S&P 500 removal
+2020-03-02,IR,ADD,S&P 500 addition
+2020-03-02,XEC,REMOVE,S&P 500 removal
+2020-04-01,ARNC,REMOVE,S&P 500 removal
+2020-04-01,HWM,ADD,S&P 500 addition
+2020-04-03,CARR,ADD,S&P 500 addition
+2020-04-03,OTIS,ADD,S&P 500 addition
+2020-04-06,M,REMOVE,S&P 500 removal
+2020-04-06,RTN,REMOVE,S&P 500 removal
+2020-05-12,AGN,REMOVE,S&P 500 removal
+2020-05-12,CPRI,REMOVE,S&P 500 removal
+2020-05-12,DPZ,ADD,S&P 500 addition
+2020-05-12,DXCM,ADD,S&P 500 addition
+2020-05-22,HP,REMOVE,S&P 500 removal
+2020-05-22,WST,ADD,S&P 500 addition
+2020-06-22,ADS,REMOVE,S&P 500 removal
+2020-06-22,BIO,ADD,S&P 500 addition
+2020-06-22,HOG,REMOVE,S&P 500 removal
+2020-06-22,JWN,REMOVE,S&P 500 removal
+2020-06-22,TDY,ADD,S&P 500 addition
+2020-06-22,TYL,ADD,S&P 500 addition
+2020-09-21,COTY,REMOVE,S&P 500 removal
+2020-09-21,CTLT,ADD,S&P 500 addition
+2020-09-21,ETSY,ADD,S&P 500 addition
+2020-09-21,HRB,REMOVE,S&P 500 removal
+2020-09-21,KSS,REMOVE,S&P 500 removal
+2020-09-21,TER,ADD,S&P 500 addition
+2020-10-07,ETFC,REMOVE,S&P 500 removal
+2020-10-07,POOL,ADD,S&P 500 addition
+2020-10-09,VNT,ADD,S&P 500 addition
+2020-10-12,NBL,REMOVE,S&P 500 removal
+2020-12-21,AIV,REMOVE,S&P 500 removal
+2020-12-21,TSLA,ADD,S&P 500 addition
+2021-01-07,ENPH,ADD,S&P 500 addition
+2021-01-07,TIF,REMOVE,S&P 500 removal
+2021-01-21,CXO,REMOVE,S&P 500 removal
+2021-01-21,TRMB,ADD,S&P 500 addition
+2021-02-12,FTI,REMOVE,S&P 500 removal
+2021-02-12,MPWR,ADD,S&P 500 addition
+2021-03-22,CZR,ADD,S&P 500 addition
+2021-03-22,FLS,REMOVE,S&P 500 removal
+2021-03-22,GNRC,ADD,S&P 500 addition
+2021-03-22,NXPI,ADD,S&P 500 addition
+2021-03-22,PENN,ADD,S&P 500 addition
+2021-03-22,SLG,REMOVE,S&P 500 removal
+2021-03-22,VNT,REMOVE,S&P 500 removal
+2021-03-22,XRX,REMOVE,S&P 500 removal
+2021-04-20,PTC,ADD,S&P 500 addition
+2021-04-20,VAR,REMOVE,S&P 500 removal
+2021-05-14,CRL,ADD,S&P 500 addition
+2021-05-14,FLIR,REMOVE,S&P 500 removal
+2021-06-03,OGN,ADD,S&P 500 addition
+2021-06-04,HFC,REMOVE,S&P 500 removal
+2021-07-21,ALXN,REMOVE,S&P 500 removal
+2021-07-21,MRNA,ADD,S&P 500 addition
+2021-08-30,MXIM,REMOVE,S&P 500 removal
+2021-08-30,TECH,ADD,S&P 500 addition
+2021-09-20,BRO,ADD,S&P 500 addition
+2021-09-20,CDAY,ADD,S&P 500 addition
+2021-09-20,MTCH,ADD,S&P 500 addition
+2021-09-20,NOV,REMOVE,S&P 500 removal
+2021-09-20,PRGO,REMOVE,S&P 500 removal
+2021-09-20,UNM,REMOVE,S&P 500 removal
+2021-12-14,EPAM,ADD,S&P 500 addition
+2021-12-14,KSU,REMOVE,S&P 500 removal
+2021-12-20,FDS,ADD,S&P 500 addition
+2021-12-20,HBI,REMOVE,S&P 500 removal
+2021-12-20,LEG,REMOVE,S&P 500 removal
+2021-12-20,SBNY,ADD,S&P 500 addition
+2021-12-20,SEDG,ADD,S&P 500 addition
+2021-12-20,WU,REMOVE,S&P 500 removal
+2022-02-02,CEG,ADD,S&P 500 addition
+2022-02-03,GPS,REMOVE,S&P 500 removal
+2022-02-15,NDSN,ADD,S&P 500 addition
+2022-02-15,XLNX,REMOVE,S&P 500 removal
+2022-03-02,INFO,REMOVE,S&P 500 removal
+2022-03-02,MOH,ADD,S&P 500 addition
+2022-04-04,CPT,ADD,S&P 500 addition
+2022-04-04,PBCT,REMOVE,S&P 500 removal
+2022-04-11,DISCA,REMOVE,S&P 500 removal
+2022-04-11,DISCK,REMOVE,S&P 500 removal
+2022-04-11,WBD,ADD,S&P 500 addition
+2022-06-08,CERN,REMOVE,S&P 500 removal
+2022-06-08,VICI,ADD,S&P 500 addition
+2022-06-21,IPGP,REMOVE,S&P 500 removal
+2022-06-21,KDP,ADD,S&P 500 addition
+2022-06-21,ON,ADD,S&P 500 addition
+2022-06-21,UA,REMOVE,S&P 500 removal
+2022-06-21,UAA,REMOVE,S&P 500 removal
+2022-09-19,CSGP,ADD,S&P 500 addition
+2022-09-19,INVH,ADD,S&P 500 addition
+2022-09-19,PENN,REMOVE,S&P 500 removal
+2022-09-19,PVH,REMOVE,S&P 500 removal
+2022-10-03,CTXS,REMOVE,S&P 500 removal
+2022-10-03,DRE,REMOVE,S&P 500 removal
+2022-10-03,EQT,ADD,S&P 500 addition
+2022-10-03,PCG,ADD,S&P 500 addition
+2022-10-12,NLSN,REMOVE,S&P 500 removal
+2022-10-12,TRGP,ADD,S&P 500 addition
+2022-11-01,ACGL,ADD,S&P 500 addition
+2022-11-01,TWTR,REMOVE,S&P 500 removal
+2022-12-15,MBC,ADD,S&P 500 addition
+2022-12-19,FBHS,REMOVE,S&P 500 removal
+2022-12-19,FSLR,ADD,S&P 500 addition
+2022-12-19,MBC,REMOVE,S&P 500 removal
+2022-12-22,ABMD,REMOVE,S&P 500 removal
+2022-12-22,STLD,ADD,S&P 500 addition
+2023-01-04,GEHC,ADD,S&P 500 addition
+2023-01-05,VNO,REMOVE,S&P 500 removal
+2023-03-15,BG,ADD,S&P 500 addition
+2023-03-15,PODD,ADD,S&P 500 addition
+2023-03-15,SBNY,REMOVE,S&P 500 removal
+2023-03-15,SIVB,REMOVE,S&P 500 removal
+2023-03-20,FICO,ADD,S&P 500 addition
+2023-03-20,LUMN,REMOVE,S&P 500 removal
+2023-05-04,AXON,ADD,S&P 500 addition
+2023-05-04,FRC,REMOVE,S&P 500 removal
+2023-06-20,DISH,REMOVE,S&P 500 removal
+2023-06-20,PANW,ADD,S&P 500 addition
+2023-07-10,EG,ADD,S&P 500 addition
+2023-07-10,RE,REMOVE,S&P 500 removal
+2023-08-25,AAP,REMOVE,S&P 500 removal
+2023-08-25,KVUE,ADD,S&P 500 addition
+2023-09-18,ABNB,ADD,S&P 500 addition
+2023-09-18,BX,ADD,S&P 500 addition
+2023-09-18,LNC,REMOVE,S&P 500 removal
+2023-09-18,NWL,REMOVE,S&P 500 removal
+2023-10-02,VLTO,ADD,S&P 500 addition
+2023-10-03,DXC,REMOVE,S&P 500 removal
+2023-10-18,ATVI,REMOVE,S&P 500 removal
+2023-10-18,HUBB,ADD,S&P 500 addition
+2023-10-18,LULU,ADD,S&P 500 addition
+2023-10-18,OGN,REMOVE,S&P 500 removal
+2023-12-18,ALK,REMOVE,S&P 500 removal
+2023-12-18,BLDR,ADD,S&P 500 addition
+2023-12-18,JBL,ADD,S&P 500 addition
+2023-12-18,SEDG,REMOVE,S&P 500 removal
+2023-12-18,SEE,REMOVE,S&P 500 removal
+2023-12-18,UBER,ADD,S&P 500 addition
+2024-03-18,DECK,ADD,S&P 500 addition
+2024-03-18,SMCI,ADD,S&P 500 addition
+2024-03-18,WHR,REMOVE,S&P 500 removal
+2024-03-18,ZION,REMOVE,S&P 500 removal
+2024-04-01,SOLV,ADD,S&P 500 addition
+2024-04-02,GEV,ADD,S&P 500 addition
+2024-04-03,VFC,REMOVE,S&P 500 removal
+2024-04-03,XRAY,REMOVE,S&P 500 removal
+2024-05-08,PXD,REMOVE,S&P 500 removal
+2024-05-08,VST,ADD,S&P 500 addition
+2024-06-24,CMA,REMOVE,S&P 500 removal
+2024-06-24,CRWD,ADD,S&P 500 addition
+2024-06-24,GDDY,ADD,S&P 500 addition
+2024-06-24,ILMN,REMOVE,S&P 500 removal
+2024-06-24,KKR,ADD,S&P 500 addition
+2024-06-24,RHI,REMOVE,S&P 500 removal
+2024-09-23,AAL,REMOVE,S&P 500 removal
+2024-09-23,BIO,REMOVE,S&P 500 removal
+2024-09-23,DELL,ADD,S&P 500 addition
+2024-09-23,ERIE,ADD,S&P 500 addition
+2024-09-23,ETSY,REMOVE,S&P 500 removal
+2024-09-23,PLTR,ADD,S&P 500 addition
+2024-09-30,AMTM,ADD,S&P 500 addition
+2024-10-01,BBWI,REMOVE,S&P 500 removal
+2024-11-26,MRO,REMOVE,S&P 500 removal
+2024-11-26,TPL,ADD,S&P 500 addition
+2024-12-23,AMTM,REMOVE,S&P 500 removal
+2024-12-23,APO,ADD,S&P 500 addition
+2024-12-23,CTLT,REMOVE,S&P 500 removal
+2024-12-23,LII,ADD,S&P 500 addition
+2024-12-23,QRVO,REMOVE,S&P 500 removal
+2024-12-23,WDAY,ADD,S&P 500 addition
+2025-03-24,BWA,REMOVE,S&P 500 removal
+2025-03-24,CE,REMOVE,S&P 500 removal
+2025-03-24,DASH,ADD,S&P 500 addition
+2025-03-24,EXE,ADD,S&P 500 addition
+2025-03-24,FMC,REMOVE,S&P 500 removal
+2025-03-24,TFX,REMOVE,S&P 500 removal
+2025-03-24,TKO,ADD,S&P 500 addition
+2025-03-24,WSM,ADD,S&P 500 addition
+2025-05-19,COIN,ADD,S&P 500 addition
+2025-05-19,DFS,REMOVE,S&P 500 removal
+2025-07-09,DDOG,ADD,S&P 500 addition
+2025-07-09,JNPR,REMOVE,S&P 500 removal
+2025-07-18,ANSS,REMOVE,S&P 500 removal
+2025-07-18,TTD,ADD,S&P 500 addition
+2025-07-23,HES,REMOVE,S&P 500 removal
+2025-07-23,XYZ,ADD,S&P 500 addition
+2025-08-28,IBKR,ADD,S&P 500 addition
+2025-08-28,WBA,REMOVE,S&P 500 removal
+2025-09-22,APP,ADD,S&P 500 addition
+2025-09-22,CZR,REMOVE,S&P 500 removal
+2025-09-22,EME,ADD,S&P 500 addition
+2025-09-22,ENPH,REMOVE,S&P 500 removal
+2025-09-22,HOOD,ADD,S&P 500 addition
+2025-09-22,MKTX,REMOVE,S&P 500 removal
+2025-10-30,SOLS,ADD,S&P 500 addition
+2025-10-31,KMX,REMOVE,S&P 500 removal
+2025-11-03,Q,ADD,S&P 500 addition
+2025-11-04,EMN,REMOVE,S&P 500 removal
+2025-11-28,IPG,REMOVE,S&P 500 removal
+2025-11-28,SNDK,ADD,S&P 500 addition
+2025-12-11,ARES,ADD,S&P 500 addition
+2025-12-11,K,REMOVE,S&P 500 removal
+2025-12-22,CRH,ADD,S&P 500 addition
+2025-12-22,CVNA,ADD,S&P 500 addition
+2025-12-22,FIX,ADD,S&P 500 addition
+2025-12-22,LKQ,REMOVE,S&P 500 removal
+2025-12-22,MHK,REMOVE,S&P 500 removal
+2025-12-22,SOLS,REMOVE,S&P 500 removal
+2026-02-09,CIEN,ADD,S&P 500 addition
+2026-02-09,DAY,REMOVE,S&P 500 removal
+2026-03-23,COHR,ADD,S&P 500 addition
+2026-03-23,LITE,ADD,S&P 500 addition
+2026-03-23,LW,REMOVE,S&P 500 removal
+2026-03-23,MOH,REMOVE,S&P 500 removal
+2026-03-23,MTCH,REMOVE,S&P 500 removal
+2026-03-23,PAYC,REMOVE,S&P 500 removal
+2026-03-23,SATS,ADD,S&P 500 addition
+2026-03-23,VRT,ADD,S&P 500 addition
+2026-04-09,CASY,ADD,S&P 500 addition
+2026-04-09,HOLX,REMOVE,S&P 500 removal
+2026-05-07,CTRA,REMOVE,S&P 500 removal
+2026-05-07,VEEV,ADD,S&P 500 addition
+2026-06-01,FDXF,ADD,S&P 500 addition
+2026-06-02,EPAM,REMOVE,S&P 500 removal
+2026-06-22,CPB,REMOVE,S&P 500 removal
+2026-06-22,FLEX,ADD,S&P 500 addition
+2026-06-22,MRVL,ADD,S&P 500 addition
+2026-06-22,POOL,REMOVE,S&P 500 removal
+2026-06-29,HONA,ADD,S&P 500 addition
+2026-06-30,CAG,REMOVE,S&P 500 removal
+2026-07-11,A,ADD,Newly observed in tracked universe
+2026-07-11,AAPL,ADD,Newly observed in tracked universe
+2026-07-11,ABBV,ADD,Newly observed in tracked universe
+2026-07-11,ABNB,ADD,Newly observed in tracked universe
+2026-07-11,ABT,ADD,Newly observed in tracked universe
+2026-07-11,ACGL,ADD,Newly observed in tracked universe
+2026-07-11,ACN,ADD,Newly observed in tracked universe
+2026-07-11,ADBE,ADD,Newly observed in tracked universe
+2026-07-11,ADI,ADD,Newly observed in tracked universe
+2026-07-11,ADM,ADD,Newly observed in tracked universe
+2026-07-11,ADP,ADD,Newly observed in tracked universe
+2026-07-11,ADSK,ADD,Newly observed in tracked universe
+2026-07-11,AEE,ADD,Newly observed in tracked universe
+2026-07-11,AEP,ADD,Newly observed in tracked universe
+2026-07-11,AES,ADD,Newly observed in tracked universe
+2026-07-11,AFL,ADD,Newly observed in tracked universe
+2026-07-11,AIG,ADD,Newly observed in tracked universe
+2026-07-11,AIZ,ADD,Newly observed in tracked universe
+2026-07-11,AJG,ADD,Newly observed in tracked universe
+2026-07-11,AKAM,ADD,Newly observed in tracked universe
+2026-07-11,ALB,ADD,Newly observed in tracked universe
+2026-07-11,ALGN,ADD,Newly observed in tracked universe
+2026-07-11,ALL,ADD,Newly observed in tracked universe
+2026-07-11,ALLE,ADD,Newly observed in tracked universe
+2026-07-11,AMAT,ADD,Newly observed in tracked universe
+2026-07-11,AMCR,ADD,Newly observed in tracked universe
+2026-07-11,AMD,ADD,Newly observed in tracked universe
+2026-07-11,AME,ADD,Newly observed in tracked universe
+2026-07-11,AMGN,ADD,Newly observed in tracked universe
+2026-07-11,AMP,ADD,Newly observed in tracked universe
+2026-07-11,AMT,ADD,Newly observed in tracked universe
+2026-07-11,AMZN,ADD,Newly observed in tracked universe
+2026-07-11,ANET,ADD,Newly observed in tracked universe
+2026-07-11,AON,ADD,Newly observed in tracked universe
+2026-07-11,AOS,ADD,Newly observed in tracked universe
+2026-07-11,APA,ADD,Newly observed in tracked universe
+2026-07-11,APD,ADD,Newly observed in tracked universe
+2026-07-11,APH,ADD,Newly observed in tracked universe
+2026-07-11,APO,ADD,Newly observed in tracked universe
+2026-07-11,APP,ADD,Newly observed in tracked universe
+2026-07-11,APTV,ADD,Newly observed in tracked universe
+2026-07-11,ARE,ADD,Newly observed in tracked universe
+2026-07-11,ARES,ADD,Newly observed in tracked universe
+2026-07-11,ATO,ADD,Newly observed in tracked universe
+2026-07-11,AVB,ADD,Newly observed in tracked universe
+2026-07-11,AVGO,ADD,Newly observed in tracked universe
+2026-07-11,AVY,ADD,Newly observed in tracked universe
+2026-07-11,AWK,ADD,Newly observed in tracked universe
+2026-07-11,AXON,ADD,Newly observed in tracked universe
+2026-07-11,AXP,ADD,Newly observed in tracked universe
+2026-07-11,AZO,ADD,Newly observed in tracked universe
+2026-07-11,BA,ADD,Newly observed in tracked universe
+2026-07-11,BAC,ADD,Newly observed in tracked universe
+2026-07-11,BALL,ADD,Newly observed in tracked universe
+2026-07-11,BAX,ADD,Newly observed in tracked universe
+2026-07-11,BBY,ADD,Newly observed in tracked universe
+2026-07-11,BDX,ADD,Newly observed in tracked universe
+2026-07-11,BEN,ADD,Newly observed in tracked universe
+2026-07-11,BF-B,ADD,Newly observed in tracked universe
+2026-07-11,BG,ADD,Newly observed in tracked universe
+2026-07-11,BIIB,ADD,Newly observed in tracked universe
+2026-07-11,BKNG,ADD,Newly observed in tracked universe
+2026-07-11,BKR,ADD,Newly observed in tracked universe
+2026-07-11,BLDR,ADD,Newly observed in tracked universe
+2026-07-11,BLK,ADD,Newly observed in tracked universe
+2026-07-11,BMY,ADD,Newly observed in tracked universe
+2026-07-11,BNY,ADD,Newly observed in tracked universe
+2026-07-11,BR,ADD,Newly observed in tracked universe
+2026-07-11,BRK-B,ADD,Newly observed in tracked universe
+2026-07-11,BRO,ADD,Newly observed in tracked universe
+2026-07-11,BSX,ADD,Newly observed in tracked universe
+2026-07-11,BX,ADD,Newly observed in tracked universe
+2026-07-11,BXP,ADD,Newly observed in tracked universe
+2026-07-11,C,ADD,Newly observed in tracked universe
+2026-07-11,CAH,ADD,Newly observed in tracked universe
+2026-07-11,CARR,ADD,Newly observed in tracked universe
+2026-07-11,CASY,ADD,Newly observed in tracked universe
+2026-07-11,CAT,ADD,Newly observed in tracked universe
+2026-07-11,CB,ADD,Newly observed in tracked universe
+2026-07-11,CBOE,ADD,Newly observed in tracked universe
+2026-07-11,CBRE,ADD,Newly observed in tracked universe
+2026-07-11,CCI,ADD,Newly observed in tracked universe
+2026-07-11,CCL,ADD,Newly observed in tracked universe
+2026-07-11,CDNS,ADD,Newly observed in tracked universe
+2026-07-11,CDW,ADD,Newly observed in tracked universe
+2026-07-11,CEG,ADD,Newly observed in tracked universe
+2026-07-11,CF,ADD,Newly observed in tracked universe
+2026-07-11,CFG,ADD,Newly observed in tracked universe
+2026-07-11,CHD,ADD,Newly observed in tracked universe
+2026-07-11,CHRW,ADD,Newly observed in tracked universe
+2026-07-11,CHTR,ADD,Newly observed in tracked universe
+2026-07-11,CI,ADD,Newly observed in tracked universe
+2026-07-11,CIEN,ADD,Newly observed in tracked universe
+2026-07-11,CINF,ADD,Newly observed in tracked universe
+2026-07-11,CL,ADD,Newly observed in tracked universe
+2026-07-11,CLX,ADD,Newly observed in tracked universe
+2026-07-11,CMCSA,ADD,Newly observed in tracked universe
+2026-07-11,CME,ADD,Newly observed in tracked universe
+2026-07-11,CMG,ADD,Newly observed in tracked universe
+2026-07-11,CMI,ADD,Newly observed in tracked universe
+2026-07-11,CMS,ADD,Newly observed in tracked universe
+2026-07-11,CNC,ADD,Newly observed in tracked universe
+2026-07-11,CNP,ADD,Newly observed in tracked universe
+2026-07-11,COF,ADD,Newly observed in tracked universe
+2026-07-11,COHR,ADD,Newly observed in tracked universe
+2026-07-11,COIN,ADD,Newly observed in tracked universe
+2026-07-11,COO,ADD,Newly observed in tracked universe
+2026-07-11,COP,ADD,Newly observed in tracked universe
+2026-07-11,COR,ADD,Newly observed in tracked universe
+2026-07-11,COST,ADD,Newly observed in tracked universe
+2026-07-11,CPAY,ADD,Newly observed in tracked universe
+2026-07-11,CPRT,ADD,Newly observed in tracked universe
+2026-07-11,CPT,ADD,Newly observed in tracked universe
+2026-07-11,CRH,ADD,Newly observed in tracked universe
+2026-07-11,CRL,ADD,Newly observed in tracked universe
+2026-07-11,CRM,ADD,Newly observed in tracked universe
+2026-07-11,CRWD,ADD,Newly observed in tracked universe
+2026-07-11,CSCO,ADD,Newly observed in tracked universe
+2026-07-11,CSGP,ADD,Newly observed in tracked universe
+2026-07-11,CSX,ADD,Newly observed in tracked universe
+2026-07-11,CTAS,ADD,Newly observed in tracked universe
+2026-07-11,CTSH,ADD,Newly observed in tracked universe
+2026-07-11,CTVA,ADD,Newly observed in tracked universe
+2026-07-11,CVNA,ADD,Newly observed in tracked universe
+2026-07-11,CVS,ADD,Newly observed in tracked universe
+2026-07-11,CVX,ADD,Newly observed in tracked universe
+2026-07-11,D,ADD,Newly observed in tracked universe
+2026-07-11,DAL,ADD,Newly observed in tracked universe
+2026-07-11,DASH,ADD,Newly observed in tracked universe
+2026-07-11,DD,ADD,Newly observed in tracked universe
+2026-07-11,DDOG,ADD,Newly observed in tracked universe
+2026-07-11,DE,ADD,Newly observed in tracked universe
+2026-07-11,DECK,ADD,Newly observed in tracked universe
+2026-07-11,DELL,ADD,Newly observed in tracked universe
+2026-07-11,DG,ADD,Newly observed in tracked universe
+2026-07-11,DGX,ADD,Newly observed in tracked universe
+2026-07-11,DHI,ADD,Newly observed in tracked universe
+2026-07-11,DHR,ADD,Newly observed in tracked universe
+2026-07-11,DIS,ADD,Newly observed in tracked universe
+2026-07-11,DLR,ADD,Newly observed in tracked universe
+2026-07-11,DLTR,ADD,Newly observed in tracked universe
+2026-07-11,DOC,ADD,Newly observed in tracked universe
+2026-07-11,DOV,ADD,Newly observed in tracked universe
+2026-07-11,DOW,ADD,Newly observed in tracked universe
+2026-07-11,DPZ,ADD,Newly observed in tracked universe
+2026-07-11,DRI,ADD,Newly observed in tracked universe
+2026-07-11,DTE,ADD,Newly observed in tracked universe
+2026-07-11,DUK,ADD,Newly observed in tracked universe
+2026-07-11,DVA,ADD,Newly observed in tracked universe
+2026-07-11,DVN,ADD,Newly observed in tracked universe
+2026-07-11,DXCM,ADD,Newly observed in tracked universe
+2026-07-11,EA,ADD,Newly observed in tracked universe
+2026-07-11,EBAY,ADD,Newly observed in tracked universe
+2026-07-11,ECHO,ADD,Newly observed in tracked universe
+2026-07-11,ECL,ADD,Newly observed in tracked universe
+2026-07-11,ED,ADD,Newly observed in tracked universe
+2026-07-11,EFX,ADD,Newly observed in tracked universe
+2026-07-11,EG,ADD,Newly observed in tracked universe
+2026-07-11,EIX,ADD,Newly observed in tracked universe
+2026-07-11,EL,ADD,Newly observed in tracked universe
+2026-07-11,ELV,ADD,Newly observed in tracked universe
+2026-07-11,EME,ADD,Newly observed in tracked universe
+2026-07-11,EMR,ADD,Newly observed in tracked universe
+2026-07-11,EOG,ADD,Newly observed in tracked universe
+2026-07-11,EQIX,ADD,Newly observed in tracked universe
+2026-07-11,EQR,ADD,Newly observed in tracked universe
+2026-07-11,EQT,ADD,Newly observed in tracked universe
+2026-07-11,ERIE,ADD,Newly observed in tracked universe
+2026-07-11,ES,ADD,Newly observed in tracked universe
+2026-07-11,ESS,ADD,Newly observed in tracked universe
+2026-07-11,ETN,ADD,Newly observed in tracked universe
+2026-07-11,ETR,ADD,Newly observed in tracked universe
+2026-07-11,EVRG,ADD,Newly observed in tracked universe
+2026-07-11,EW,ADD,Newly observed in tracked universe
+2026-07-11,EXC,ADD,Newly observed in tracked universe
+2026-07-11,EXE,ADD,Newly observed in tracked universe
+2026-07-11,EXPD,ADD,Newly observed in tracked universe
+2026-07-11,EXPE,ADD,Newly observed in tracked universe
+2026-07-11,EXR,ADD,Newly observed in tracked universe
+2026-07-11,F,ADD,Newly observed in tracked universe
+2026-07-11,FANG,ADD,Newly observed in tracked universe
+2026-07-11,FAST,ADD,Newly observed in tracked universe
+2026-07-11,FCX,ADD,Newly observed in tracked universe
+2026-07-11,FDS,ADD,Newly observed in tracked universe
+2026-07-11,FDX,ADD,Newly observed in tracked universe
+2026-07-11,FDXF,ADD,Newly observed in tracked universe
+2026-07-11,FE,ADD,Newly observed in tracked universe
+2026-07-11,FFIV,ADD,Newly observed in tracked universe
+2026-07-11,FICO,ADD,Newly observed in tracked universe
+2026-07-11,FIS,ADD,Newly observed in tracked universe
+2026-07-11,FISV,ADD,Newly observed in tracked universe
+2026-07-11,FITB,ADD,Newly observed in tracked universe
+2026-07-11,FIX,ADD,Newly observed in tracked universe
+2026-07-11,FLEX,ADD,Newly observed in tracked universe
+2026-07-11,FOX,ADD,Newly observed in tracked universe
+2026-07-11,FOXA,ADD,Newly observed in tracked universe
+2026-07-11,FRT,ADD,Newly observed in tracked universe
+2026-07-11,FSLR,ADD,Newly observed in tracked universe
+2026-07-11,FTNT,ADD,Newly observed in tracked universe
+2026-07-11,FTV,ADD,Newly observed in tracked universe
+2026-07-11,GD,ADD,Newly observed in tracked universe
+2026-07-11,GDDY,ADD,Newly observed in tracked universe
+2026-07-11,GE,ADD,Newly observed in tracked universe
+2026-07-11,GEHC,ADD,Newly observed in tracked universe
+2026-07-11,GEN,ADD,Newly observed in tracked universe
+2026-07-11,GEV,ADD,Newly observed in tracked universe
+2026-07-11,GILD,ADD,Newly observed in tracked universe
+2026-07-11,GIS,ADD,Newly observed in tracked universe
+2026-07-11,GL,ADD,Newly observed in tracked universe
+2026-07-11,GLW,ADD,Newly observed in tracked universe
+2026-07-11,GM,ADD,Newly observed in tracked universe
+2026-07-11,GNRC,ADD,Newly observed in tracked universe
+2026-07-11,GOOG,ADD,Newly observed in tracked universe
+2026-07-11,GOOGL,ADD,Newly observed in tracked universe
+2026-07-11,GPC,ADD,Newly observed in tracked universe
+2026-07-11,GPN,ADD,Newly observed in tracked universe
+2026-07-11,GRMN,ADD,Newly observed in tracked universe
+2026-07-11,GS,ADD,Newly observed in tracked universe
+2026-07-11,GWW,ADD,Newly observed in tracked universe
+2026-07-11,HAL,ADD,Newly observed in tracked universe
+2026-07-11,HAS,ADD,Newly observed in tracked universe
+2026-07-11,HBAN,ADD,Newly observed in tracked universe
+2026-07-11,HCA,ADD,Newly observed in tracked universe
+2026-07-11,HD,ADD,Newly observed in tracked universe
+2026-07-11,HIG,ADD,Newly observed in tracked universe
+2026-07-11,HII,ADD,Newly observed in tracked universe
+2026-07-11,HLT,ADD,Newly observed in tracked universe
+2026-07-11,HON,ADD,Newly observed in tracked universe
+2026-07-11,HONA,ADD,Newly observed in tracked universe
+2026-07-11,HOOD,ADD,Newly observed in tracked universe
+2026-07-11,HPE,ADD,Newly observed in tracked universe
+2026-07-11,HPQ,ADD,Newly observed in tracked universe
+2026-07-11,HRL,ADD,Newly observed in tracked universe
+2026-07-11,HSIC,ADD,Newly observed in tracked universe
+2026-07-11,HST,ADD,Newly observed in tracked universe
+2026-07-11,HSY,ADD,Newly observed in tracked universe
+2026-07-11,HUBB,ADD,Newly observed in tracked universe
+2026-07-11,HUM,ADD,Newly observed in tracked universe
+2026-07-11,HWM,ADD,Newly observed in tracked universe
+2026-07-11,IBKR,ADD,Newly observed in tracked universe
+2026-07-11,IBM,ADD,Newly observed in tracked universe
+2026-07-11,ICE,ADD,Newly observed in tracked universe
+2026-07-11,IDXX,ADD,Newly observed in tracked universe
+2026-07-11,IEX,ADD,Newly observed in tracked universe
+2026-07-11,IFF,ADD,Newly observed in tracked universe
+2026-07-11,INCY,ADD,Newly observed in tracked universe
+2026-07-11,INTC,ADD,Newly observed in tracked universe
+2026-07-11,INTU,ADD,Newly observed in tracked universe
+2026-07-11,INVH,ADD,Newly observed in tracked universe
+2026-07-11,IP,ADD,Newly observed in tracked universe
+2026-07-11,IQV,ADD,Newly observed in tracked universe
+2026-07-11,IR,ADD,Newly observed in tracked universe
+2026-07-11,IRM,ADD,Newly observed in tracked universe
+2026-07-11,ISRG,ADD,Newly observed in tracked universe
+2026-07-11,IT,ADD,Newly observed in tracked universe
+2026-07-11,ITW,ADD,Newly observed in tracked universe
+2026-07-11,IVZ,ADD,Newly observed in tracked universe
+2026-07-11,J,ADD,Newly observed in tracked universe
+2026-07-11,JBHT,ADD,Newly observed in tracked universe
+2026-07-11,JBL,ADD,Newly observed in tracked universe
+2026-07-11,JCI,ADD,Newly observed in tracked universe
+2026-07-11,JKHY,ADD,Newly observed in tracked universe
+2026-07-11,JNJ,ADD,Newly observed in tracked universe
+2026-07-11,JPM,ADD,Newly observed in tracked universe
+2026-07-11,KDP,ADD,Newly observed in tracked universe
+2026-07-11,KEY,ADD,Newly observed in tracked universe
+2026-07-11,KEYS,ADD,Newly observed in tracked universe
+2026-07-11,KHC,ADD,Newly observed in tracked universe
+2026-07-11,KIM,ADD,Newly observed in tracked universe
+2026-07-11,KKR,ADD,Newly observed in tracked universe
+2026-07-11,KLAC,ADD,Newly observed in tracked universe
+2026-07-11,KMB,ADD,Newly observed in tracked universe
+2026-07-11,KMI,ADD,Newly observed in tracked universe
+2026-07-11,KO,ADD,Newly observed in tracked universe
+2026-07-11,KR,ADD,Newly observed in tracked universe
+2026-07-11,KVUE,ADD,Newly observed in tracked universe
+2026-07-11,L,ADD,Newly observed in tracked universe
+2026-07-11,LDOS,ADD,Newly observed in tracked universe
+2026-07-11,LEN,ADD,Newly observed in tracked universe
+2026-07-11,LH,ADD,Newly observed in tracked universe
+2026-07-11,LHX,ADD,Newly observed in tracked universe
+2026-07-11,LII,ADD,Newly observed in tracked universe
+2026-07-11,LIN,ADD,Newly observed in tracked universe
+2026-07-11,LITE,ADD,Newly observed in tracked universe
+2026-07-11,LLY,ADD,Newly observed in tracked universe
+2026-07-11,LMT,ADD,Newly observed in tracked universe
+2026-07-11,LNT,ADD,Newly observed in tracked universe
+2026-07-11,LOW,ADD,Newly observed in tracked universe
+2026-07-11,LRCX,ADD,Newly observed in tracked universe
+2026-07-11,LULU,ADD,Newly observed in tracked universe
+2026-07-11,LUV,ADD,Newly observed in tracked universe
+2026-07-11,LVS,ADD,Newly observed in tracked universe
+2026-07-11,LYB,ADD,Newly observed in tracked universe
+2026-07-11,LYV,ADD,Newly observed in tracked universe
+2026-07-11,MA,ADD,Newly observed in tracked universe
+2026-07-11,MAA,ADD,Newly observed in tracked universe
+2026-07-11,MAR,ADD,Newly observed in tracked universe
+2026-07-11,MAS,ADD,Newly observed in tracked universe
+2026-07-11,MCD,ADD,Newly observed in tracked universe
+2026-07-11,MCHP,ADD,Newly observed in tracked universe
+2026-07-11,MCK,ADD,Newly observed in tracked universe
+2026-07-11,MCO,ADD,Newly observed in tracked universe
+2026-07-11,MDLZ,ADD,Newly observed in tracked universe
+2026-07-11,MDT,ADD,Newly observed in tracked universe
+2026-07-11,MET,ADD,Newly observed in tracked universe
+2026-07-11,META,ADD,Newly observed in tracked universe
+2026-07-11,MGM,ADD,Newly observed in tracked universe
+2026-07-11,MKC,ADD,Newly observed in tracked universe
+2026-07-11,MLM,ADD,Newly observed in tracked universe
+2026-07-11,MMM,ADD,Newly observed in tracked universe
+2026-07-11,MNST,ADD,Newly observed in tracked universe
+2026-07-11,MO,ADD,Newly observed in tracked universe
+2026-07-11,MOS,ADD,Newly observed in tracked universe
+2026-07-11,MPC,ADD,Newly observed in tracked universe
+2026-07-11,MPWR,ADD,Newly observed in tracked universe
+2026-07-11,MRK,ADD,Newly observed in tracked universe
+2026-07-11,MRNA,ADD,Newly observed in tracked universe
+2026-07-11,MRSH,ADD,Newly observed in tracked universe
+2026-07-11,MRVL,ADD,Newly observed in tracked universe
+2026-07-11,MS,ADD,Newly observed in tracked universe
+2026-07-11,MSCI,ADD,Newly observed in tracked universe
+2026-07-11,MSFT,ADD,Newly observed in tracked universe
+2026-07-11,MSI,ADD,Newly observed in tracked universe
+2026-07-11,MTB,ADD,Newly observed in tracked universe
+2026-07-11,MTD,ADD,Newly observed in tracked universe
+2026-07-11,MU,ADD,Newly observed in tracked universe
+2026-07-11,NCLH,ADD,Newly observed in tracked universe
+2026-07-11,NDAQ,ADD,Newly observed in tracked universe
+2026-07-11,NDSN,ADD,Newly observed in tracked universe
+2026-07-11,NEE,ADD,Newly observed in tracked universe
+2026-07-11,NEM,ADD,Newly observed in tracked universe
+2026-07-11,NFLX,ADD,Newly observed in tracked universe
+2026-07-11,NI,ADD,Newly observed in tracked universe
+2026-07-11,NKE,ADD,Newly observed in tracked universe
+2026-07-11,NOC,ADD,Newly observed in tracked universe
+2026-07-11,NOW,ADD,Newly observed in tracked universe
+2026-07-11,NRG,ADD,Newly observed in tracked universe
+2026-07-11,NSC,ADD,Newly observed in tracked universe
+2026-07-11,NTAP,ADD,Newly observed in tracked universe
+2026-07-11,NTRS,ADD,Newly observed in tracked universe
+2026-07-11,NUE,ADD,Newly observed in tracked universe
+2026-07-11,NVDA,ADD,Newly observed in tracked universe
+2026-07-11,NVR,ADD,Newly observed in tracked universe
+2026-07-11,NWS,ADD,Newly observed in tracked universe
+2026-07-11,NWSA,ADD,Newly observed in tracked universe
+2026-07-11,NXPI,ADD,Newly observed in tracked universe
+2026-07-11,O,ADD,Newly observed in tracked universe
+2026-07-11,ODFL,ADD,Newly observed in tracked universe
+2026-07-11,OKE,ADD,Newly observed in tracked universe
+2026-07-11,OMC,ADD,Newly observed in tracked universe
+2026-07-11,ON,ADD,Newly observed in tracked universe
+2026-07-11,ORCL,ADD,Newly observed in tracked universe
+2026-07-11,ORLY,ADD,Newly observed in tracked universe
+2026-07-11,OTIS,ADD,Newly observed in tracked universe
+2026-07-11,OXY,ADD,Newly observed in tracked universe
+2026-07-11,PANW,ADD,Newly observed in tracked universe
+2026-07-11,PAYX,ADD,Newly observed in tracked universe
+2026-07-11,PCAR,ADD,Newly observed in tracked universe
+2026-07-11,PCG,ADD,Newly observed in tracked universe
+2026-07-11,PEG,ADD,Newly observed in tracked universe
+2026-07-11,PEP,ADD,Newly observed in tracked universe
+2026-07-11,PFE,ADD,Newly observed in tracked universe
+2026-07-11,PFG,ADD,Newly observed in tracked universe
+2026-07-11,PG,ADD,Newly observed in tracked universe
+2026-07-11,PGR,ADD,Newly observed in tracked universe
+2026-07-11,PH,ADD,Newly observed in tracked universe
+2026-07-11,PHM,ADD,Newly observed in tracked universe
+2026-07-11,PKG,ADD,Newly observed in tracked universe
+2026-07-11,PLD,ADD,Newly observed in tracked universe
+2026-07-11,PLTR,ADD,Newly observed in tracked universe
+2026-07-11,PM,ADD,Newly observed in tracked universe
+2026-07-11,PNC,ADD,Newly observed in tracked universe
+2026-07-11,PNR,ADD,Newly observed in tracked universe
+2026-07-11,PNW,ADD,Newly observed in tracked universe
+2026-07-11,PODD,ADD,Newly observed in tracked universe
+2026-07-11,PPG,ADD,Newly observed in tracked universe
+2026-07-11,PPL,ADD,Newly observed in tracked universe
+2026-07-11,PRU,ADD,Newly observed in tracked universe
+2026-07-11,PSA,ADD,Newly observed in tracked universe
+2026-07-11,PSKY,ADD,Newly observed in tracked universe
+2026-07-11,PSX,ADD,Newly observed in tracked universe
+2026-07-11,PTC,ADD,Newly observed in tracked universe
+2026-07-11,PWR,ADD,Newly observed in tracked universe
+2026-07-11,PYPL,ADD,Newly observed in tracked universe
+2026-07-11,Q,ADD,Newly observed in tracked universe
+2026-07-11,QCOM,ADD,Newly observed in tracked universe
+2026-07-11,RCL,ADD,Newly observed in tracked universe
+2026-07-11,REG,ADD,Newly observed in tracked universe
+2026-07-11,REGN,ADD,Newly observed in tracked universe
+2026-07-11,RF,ADD,Newly observed in tracked universe
+2026-07-11,RJF,ADD,Newly observed in tracked universe
+2026-07-11,RL,ADD,Newly observed in tracked universe
+2026-07-11,RMD,ADD,Newly observed in tracked universe
+2026-07-11,ROK,ADD,Newly observed in tracked universe
+2026-07-11,ROL,ADD,Newly observed in tracked universe
+2026-07-11,ROP,ADD,Newly observed in tracked universe
+2026-07-11,ROST,ADD,Newly observed in tracked universe
+2026-07-11,RSG,ADD,Newly observed in tracked universe
+2026-07-11,RTX,ADD,Newly observed in tracked universe
+2026-07-11,RVTY,ADD,Newly observed in tracked universe
+2026-07-11,SBAC,ADD,Newly observed in tracked universe
+2026-07-11,SBUX,ADD,Newly observed in tracked universe
+2026-07-11,SCHW,ADD,Newly observed in tracked universe
+2026-07-11,SHW,ADD,Newly observed in tracked universe
+2026-07-11,SJM,ADD,Newly observed in tracked universe
+2026-07-11,SLB,ADD,Newly observed in tracked universe
+2026-07-11,SMCI,ADD,Newly observed in tracked universe
+2026-07-11,SNA,ADD,Newly observed in tracked universe
+2026-07-11,SNDK,ADD,Newly observed in tracked universe
+2026-07-11,SNPS,ADD,Newly observed in tracked universe
+2026-07-11,SO,ADD,Newly observed in tracked universe
+2026-07-11,SOLV,ADD,Newly observed in tracked universe
+2026-07-11,SPG,ADD,Newly observed in tracked universe
+2026-07-11,SPGI,ADD,Newly observed in tracked universe
+2026-07-11,SRE,ADD,Newly observed in tracked universe
+2026-07-11,STE,ADD,Newly observed in tracked universe
+2026-07-11,STLD,ADD,Newly observed in tracked universe
+2026-07-11,STT,ADD,Newly observed in tracked universe
+2026-07-11,STX,ADD,Newly observed in tracked universe
+2026-07-11,STZ,ADD,Newly observed in tracked universe
+2026-07-11,SW,ADD,Newly observed in tracked universe
+2026-07-11,SWK,ADD,Newly observed in tracked universe
+2026-07-11,SWKS,ADD,Newly observed in tracked universe
+2026-07-11,SYF,ADD,Newly observed in tracked universe
+2026-07-11,SYK,ADD,Newly observed in tracked universe
+2026-07-11,SYY,ADD,Newly observed in tracked universe
+2026-07-11,T,ADD,Newly observed in tracked universe
+2026-07-11,TAP,ADD,Newly observed in tracked universe
+2026-07-11,TDG,ADD,Newly observed in tracked universe
+2026-07-11,TDY,ADD,Newly observed in tracked universe
+2026-07-11,TECH,ADD,Newly observed in tracked universe
+2026-07-11,TEL,ADD,Newly observed in tracked universe
+2026-07-11,TER,ADD,Newly observed in tracked universe
+2026-07-11,TFC,ADD,Newly observed in tracked universe
+2026-07-11,TGT,ADD,Newly observed in tracked universe
+2026-07-11,TJX,ADD,Newly observed in tracked universe
+2026-07-11,TKO,ADD,Newly observed in tracked universe
+2026-07-11,TMO,ADD,Newly observed in tracked universe
+2026-07-11,TMUS,ADD,Newly observed in tracked universe
+2026-07-11,TPL,ADD,Newly observed in tracked universe
+2026-07-11,TPR,ADD,Newly observed in tracked universe
+2026-07-11,TRGP,ADD,Newly observed in tracked universe
+2026-07-11,TRMB,ADD,Newly observed in tracked universe
+2026-07-11,TROW,ADD,Newly observed in tracked universe
+2026-07-11,TRV,ADD,Newly observed in tracked universe
+2026-07-11,TSCO,ADD,Newly observed in tracked universe
+2026-07-11,TSLA,ADD,Newly observed in tracked universe
+2026-07-11,TSN,ADD,Newly observed in tracked universe
+2026-07-11,TT,ADD,Newly observed in tracked universe
+2026-07-11,TTD,ADD,Newly observed in tracked universe
+2026-07-11,TTWO,ADD,Newly observed in tracked universe
+2026-07-11,TXN,ADD,Newly observed in tracked universe
+2026-07-11,TXT,ADD,Newly observed in tracked universe
+2026-07-11,TYL,ADD,Newly observed in tracked universe
+2026-07-11,UAL,ADD,Newly observed in tracked universe
+2026-07-11,UBER,ADD,Newly observed in tracked universe
+2026-07-11,UDR,ADD,Newly observed in tracked universe
+2026-07-11,UHS,ADD,Newly observed in tracked universe
+2026-07-11,ULTA,ADD,Newly observed in tracked universe
+2026-07-11,UNH,ADD,Newly observed in tracked universe
+2026-07-11,UNP,ADD,Newly observed in tracked universe
+2026-07-11,UPS,ADD,Newly observed in tracked universe
+2026-07-11,URI,ADD,Newly observed in tracked universe
+2026-07-11,USB,ADD,Newly observed in tracked universe
+2026-07-11,V,ADD,Newly observed in tracked universe
+2026-07-11,VEEV,ADD,Newly observed in tracked universe
+2026-07-11,VICI,ADD,Newly observed in tracked universe
+2026-07-11,VLO,ADD,Newly observed in tracked universe
+2026-07-11,VLTO,ADD,Newly observed in tracked universe
+2026-07-11,VMC,ADD,Newly observed in tracked universe
+2026-07-11,VRSK,ADD,Newly observed in tracked universe
+2026-07-11,VRSN,ADD,Newly observed in tracked universe
+2026-07-11,VRT,ADD,Newly observed in tracked universe
+2026-07-11,VRTX,ADD,Newly observed in tracked universe
+2026-07-11,VST,ADD,Newly observed in tracked universe
+2026-07-11,VTR,ADD,Newly observed in tracked universe
+2026-07-11,VTRS,ADD,Newly observed in tracked universe
+2026-07-11,VZ,ADD,Newly observed in tracked universe
+2026-07-11,WAB,ADD,Newly observed in tracked universe
+2026-07-11,WAT,ADD,Newly observed in tracked universe
+2026-07-11,WBD,ADD,Newly observed in tracked universe
+2026-07-11,WDAY,ADD,Newly observed in tracked universe
+2026-07-11,WDC,ADD,Newly observed in tracked universe
+2026-07-11,WEC,ADD,Newly observed in tracked universe
+2026-07-11,WELL,ADD,Newly observed in tracked universe
+2026-07-11,WFC,ADD,Newly observed in tracked universe
+2026-07-11,WM,ADD,Newly observed in tracked universe
+2026-07-11,WMB,ADD,Newly observed in tracked universe
+2026-07-11,WMT,ADD,Newly observed in tracked universe
+2026-07-11,WRB,ADD,Newly observed in tracked universe
+2026-07-11,WSM,ADD,Newly observed in tracked universe
+2026-07-11,WST,ADD,Newly observed in tracked universe
+2026-07-11,WTW,ADD,Newly observed in tracked universe
+2026-07-11,WY,ADD,Newly observed in tracked universe
+2026-07-11,WYNN,ADD,Newly observed in tracked universe
+2026-07-11,XEL,ADD,Newly observed in tracked universe
+2026-07-11,XOM,ADD,Newly observed in tracked universe
+2026-07-11,XYL,ADD,Newly observed in tracked universe
+2026-07-11,XYZ,ADD,Newly observed in tracked universe
+2026-07-11,YUM,ADD,Newly observed in tracked universe
+2026-07-11,ZBH,ADD,Newly observed in tracked universe
+2026-07-11,ZBRA,ADD,Newly observed in tracked universe
+2026-07-11,ZTS,ADD,Newly observed in tracked universe
