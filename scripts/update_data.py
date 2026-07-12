@@ -67,7 +67,9 @@ def fetch_listed_file(url: str) -> pd.DataFrame:
     resp = requests.get(url, headers=REQUEST_HEADERS, timeout=30)
     resp.raise_for_status()
     lines = resp.text.splitlines()[:-1]  # drop the "File Creation Time: ..." trailer row
-    return pd.read_csv(io.StringIO("\n".join(lines)), sep="|")
+    # keep_default_na=False: pandas otherwise silently parses the real ticker
+    # "NA" (and "NULL", "N/A", etc.) as a missing value instead of a string.
+    return pd.read_csv(io.StringIO("\n".join(lines)), sep="|", keep_default_na=False)
 
 
 def fetch_listed_universe() -> pd.DataFrame:
@@ -96,13 +98,22 @@ def fetch_listed_universe() -> pd.DataFrame:
 
 def load_universe() -> pd.DataFrame:
     if UNIVERSE_FILE.exists():
-        return pd.read_csv(UNIVERSE_FILE, parse_dates=["first_seen", "last_seen"])
+        # Date parsing is done explicitly via to_datetime below rather than
+        # via read_csv's parse_dates: that inference is unreliable once
+        # keep_default_na=False is set, and silently falls back to leaving
+        # the column as plain strings if formats aren't perfectly uniform.
+        df = pd.read_csv(UNIVERSE_FILE, keep_default_na=False, na_values=[""])
+        df["first_seen"] = pd.to_datetime(df["first_seen"], format="ISO8601")
+        df["last_seen"] = pd.to_datetime(df["last_seen"], format="ISO8601")
+        return df
     return pd.DataFrame(columns=UNIVERSE_COLUMNS)
 
 
 def load_events() -> pd.DataFrame:
     if EVENTS_FILE.exists():
-        return pd.read_csv(EVENTS_FILE, parse_dates=["date"])
+        df = pd.read_csv(EVENTS_FILE, keep_default_na=False, na_values=[""])
+        df["date"] = pd.to_datetime(df["date"], format="ISO8601")
+        return df
     return pd.DataFrame(columns=EVENTS_COLUMNS)
 
 
@@ -235,6 +246,55 @@ def chunked(items, size):
         yield items[i:i + size]
 
 
+def last_price_date(ticker: str):
+    """Ground-truth last saved date for a ticker, read directly from its price
+    file rather than tracked separately -- avoids that cache ever drifting out
+    of sync with what's actually on disk. Reads only the file's tail, not the
+    whole thing, so this stays cheap across thousands of tickers."""
+    path = price_file_path(ticker)
+    if not path.exists():
+        return None
+    with open(path, "rb") as f:
+        f.seek(0, 2)
+        size = f.tell()
+        f.seek(max(0, size - 4096))
+        chunk = f.read().decode("utf-8", errors="ignore")
+    lines = [line for line in chunk.splitlines() if line.strip()]
+    if not lines:
+        return None
+    last_date_str = lines[-1].split(",")[0]
+    try:
+        return pd.Timestamp(last_date_str)
+    except ValueError:
+        return None
+
+
+# How far each ticker fell behind determines how wide a window we re-fetch:
+# small gaps (missed a day or two, a holiday weekend) are cheap to cover with
+# a short window; a ticker that's been silently failing for weeks or months
+# gets a full re-fetch so no gap is ever permanently lost.
+GAP_BUCKETS = [
+    (10, "1mo"),
+    (90, "6mo"),
+    (None, "max"),
+]
+
+
+def bucket_tickers_by_gap(tickers, today: pd.Timestamp):
+    buckets = {period: set() for _, period in GAP_BUCKETS}
+    for t in tickers:
+        last_date = last_price_date(t)
+        if last_date is None:
+            buckets["max"].add(t)
+            continue
+        gap_days = (today - last_date).days
+        for max_gap, period in GAP_BUCKETS:
+            if max_gap is None or gap_days <= max_gap:
+                buckets[period].add(t)
+                break
+    return buckets
+
+
 def download_prices(tickers, period):
     if not tickers:
         return set()
@@ -246,10 +306,9 @@ def download_prices(tickers, period):
         if data.empty:
             silent_failures.update(chunk)
             continue
-        single = len(chunk) == 1
         for t in chunk:
             try:
-                df = data if single else data[t]
+                df = data[t]
             except KeyError:
                 silent_failures.add(t)
                 continue
@@ -281,8 +340,13 @@ def main():
         silent_failures |= download_prices(new_tickers, period="max")
 
     daily_tickers = active_tickers - new_tickers
-    print(f"Fetching latest daily bars for {len(daily_tickers)} ticker(s)")
-    silent_failures |= download_prices(daily_tickers, period="5d")
+    buckets = bucket_tickers_by_gap(daily_tickers, today)
+    for _, period in GAP_BUCKETS:
+        tickers_in_bucket = buckets[period]
+        if not tickers_in_bucket:
+            continue
+        print(f"Fetching period={period} for {len(tickers_in_bucket)} ticker(s)")
+        silent_failures |= download_prices(tickers_in_bucket, period=period)
 
     for t in sorted(silent_failures):
         idx = universe.index[universe["ticker"] == t]
