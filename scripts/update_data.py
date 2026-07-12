@@ -144,6 +144,7 @@ def sync_universe(today: pd.Timestamp, listed: pd.DataFrame, universe: pd.DataFr
     current_tickers = set(listed["ticker"])
     known_tickers = set(universe["ticker"]) if not universe.empty else set()
     exchange_map = listed.set_index("ticker")["exchange"]
+    financial_status_map = listed.set_index("ticker")["financial_status"]
 
     new_tickers = current_tickers - known_tickers
     if new_tickers:
@@ -161,10 +162,33 @@ def sync_universe(today: pd.Timestamp, listed: pd.DataFrame, universe: pd.DataFr
             log.log(today, t, "REMOVE", "No longer in NYSE/Nasdaq/AMEX listed directory")
         universe.loc[dropped_mask, "status"] = "removed"
 
+        # A ticker marked "removed" that reappears -- a genuine relisting, or
+        # (rarer, on these major exchanges) a different company reusing the
+        # old symbol. Reactivating is the safer default: leaving it "removed"
+        # forever would silently stop tracking a ticker that's actively
+        # trading again, which is worse for a survivorship-bias-free database
+        # than the ambiguity of possibly conflating two entities under one
+        # ticker (the same ambiguity already noted for OTC ticker recycling).
+        readded_mask = (universe["status"] == "removed") & universe["ticker"].isin(current_tickers)
+        for t in sorted(universe.loc[readded_mask, "ticker"]):
+            log.log(today, t, "READDED", "Reappeared in NYSE/Nasdaq/AMEX listed directory after removal")
+        universe.loc[readded_mask, "status"] = "active"
+
+        # Exchange changes for tickers that stayed listed throughout (e.g. a
+        # company moving its primary listing from NYSE to Nasdaq).
         active_mask = universe["ticker"].isin(current_tickers)
+        new_exchange = universe["ticker"].map(exchange_map)
+        exchange_changed_mask = active_mask & new_exchange.notna() & (new_exchange != universe["exchange"])
+        for t, old_ex, new_ex in zip(
+            universe.loc[exchange_changed_mask, "ticker"],
+            universe.loc[exchange_changed_mask, "exchange"],
+            new_exchange[exchange_changed_mask],
+        ):
+            log.log(today, t, "EXCHANGE_CHANGE", f"Moved from {old_ex} to {new_ex}")
+        universe.loc[exchange_changed_mask, "exchange"] = new_exchange[exchange_changed_mask]
+
         universe.loc[active_mask, "last_seen"] = today
-        status_map = listed.set_index("ticker")["financial_status"]
-        universe.loc[active_mask, "financial_status"] = universe.loc[active_mask, "ticker"].map(status_map)
+        universe.loc[active_mask, "financial_status"] = universe.loc[active_mask, "ticker"].map(financial_status_map)
 
     return universe, new_tickers
 
