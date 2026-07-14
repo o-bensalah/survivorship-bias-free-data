@@ -1,0 +1,23 @@
+name: Live data spot-check
+
+on:
+  schedule:
+    # Weekly, not nightly: repeated live Yahoo calls add rate-limit risk,
+    # and this checks data integrity, not something that changes daily.
+    - cron: "0 12 * * 6"
+  workflow_dispatch: {}
+
+jobs:
+  spotcheck:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: "pip"
+
+      - run: pip install -r requirements-dev.txt
+
+      - run: pytest -m live -v -s
