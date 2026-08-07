@@ -631,7 +631,7 @@ AWX,Avalon Holdings Corporation Common Stock,NYSE American,N,active,2026-07-11,2
 AX,"Axos Financial, Inc. Common Stock",NYSE,N,active,2026-07-11,2026-08-07
 AXG,Solowin Holdings - Class A Ordinary Share,NASDAQ,N,active,2026-07-11,2026-08-07
 AXGN,"Axogen, Inc. - Common Stock",NASDAQ,N,active,2026-07-11,2026-08-07
-AXIA,AXIA Energia American Depositary Shares (Each representing one Common Share),NYSE,N,active,2026-07-11,2026-08-07
+AXIA,AXIA Energia American Depositary Shares (Each representing one Common Share),NYSE,N,removed,2026-07-11,2026-08-07
 AXIL,"AXIL Brands, Inc. Common Stock",NYSE American,N,active,2026-07-11,2026-08-07
 AXIN,Axiom Intelligence Acquisition Corp 1 - Class A Ordinary Shares,NASDAQ,N,active,2026-07-11,2026-08-07
 AXON,"Axon Enterprise, Inc. - Common Stock",NASDAQ,N,active,2026-07-11,2026-08-07
@@ -829,7 +829,7 @@ BHR,Braemar Hotels & Resorts Inc. Common Stock,NYSE,N,active,2026-07-11,2026-08-
 BHRB,Burke & Herbert Financial Services Corp. - Common Stock,NASDAQ,N,active,2026-07-11,2026-08-07
 BHST,BioHarvest Sciences Inc. - Common Stock,NASDAQ,N,active,2026-07-11,2026-08-07
 BHVN,Biohaven Ltd. Common Shares ,NYSE,N,active,2026-07-11,2026-08-07
-BIAF,"bioAffinity Technologies, Inc. - Common Stock",NASDAQ,N,active,2026-07-11,2026-08-07
+BIAF,"bioAffinity Technologies, Inc. - Common Stock",NASDAQ,D,active,2026-07-11,2026-08-07
 BIB,ProShares Ultra Nasdaq Biotechnology,NASDAQ,N,active,2026-07-11,2026-08-07
 BIDG,Leverage Shares 2X Long BIDU Daily ETF,NASDAQ,N,active,2026-07-11,2026-08-07
 BIDU,"Baidu, Inc. - American Depositary Shares, each representing 8 ordinary share",NASDAQ,N,active,2026-07-11,2026-08-07
@@ -936,7 +936,7 @@ BNT,Brookfield Wealth Solutions Ltd. Class A Exchangeable Limited Voting Shares,
 BNTC,Benitec Biopharma Inc. - Common Stock,NASDAQ,N,active,2026-07-11,2026-08-07
 BNTX,BioNTech SE - American Depositary Shares,NASDAQ,N,active,2026-07-11,2026-08-07
 BNY,The Bank of New York Mellon Corporation Common Stock,NYSE,N,active,2026-07-11,2026-08-07
-BNZI,"Banzai International, Inc. - Class A Common Stock",NASDAQ,N,active,2026-07-11,2026-08-07
+BNZI,"Banzai International, Inc. - Class A Common Stock",NASDAQ,N,removed,2026-07-11,2026-08-07
 BOBS,"Bob's Discount Furniture, Inc. Common Stock",NYSE,N,active,2026-07-11,2026-08-07
 BOC,Boston Omaha Corporation Class A Common Stock,NYSE,N,active,2026-07-11,2026-08-07
 BODI,"The Beachbody Company, Inc. - Class A Common Stock",NASDAQ,N,active,2026-07-11,2026-08-07
@@ -2202,7 +2202,7 @@ ETO,Eaton Vance Tax-Advantage Global Dividend Opp Common Stock,NYSE,N,active,202
 ETON,"Eton Pharmaceuticals, Inc. - Common Stock",NASDAQ,N,active,2026-07-11,2026-08-07
 ETOR,eToro Group Ltd. - Class A Common Shares,NASDAQ,N,active,2026-07-11,2026-08-07
 ETR,Entergy Corporation Common Stock,NYSE,N,active,2026-07-11,2026-08-07
-ETS,Elite Express Holding Inc. - Class A Common Stock,NASDAQ,D,active,2026-07-11,2026-08-07
+ETS,Elite Express Holding Inc. - Class A Common Stock,NASDAQ,N,active,2026-07-11,2026-08-07
 ETSS,Energy Transition Special Opportunities Class A Ordinary Shares,NYSE,N,active,2026-07-11,2026-08-07
 ETSY,"Etsy, Inc. Common Stock",NYSE,N,active,2026-07-11,2026-08-07
 ETV,Eaton Vance Corporation Eaton Vance Tax-Managed Buy-Write Opportunities Fund Common Shares of Beneficial Interest,NYSE,N,active,2026-07-11,2026-08-07
@@ -4954,7 +4954,7 @@ PDM,"Piedmont Realty Trust, Inc. Class A Common Stock",NYSE,N,active,2026-07-11,
 PDO,PIMCO Dynamic Income Opportunities Fund Common Shares of Beneficial Interest,NYSE,N,active,2026-07-11,2026-08-07
 PDP,Invesco Dorsey Wright Momentum ETF,NASDAQ,N,active,2026-07-11,2026-08-07
 PDS,Precision Drilling Corporation Common Stock,NYSE,N,active,2026-07-11,2026-08-07
-PDSB,PDS Biotechnology Corporation - Common Stock,NASDAQ,N,active,2026-07-11,2026-08-07
+PDSB,PDS Biotechnology Corporation - Common Stock,NASDAQ,D,active,2026-07-11,2026-08-07
 PDT,John Hancock Premium Dividend Fund,NYSE,N,active,2026-07-11,2026-08-07
 PDX,PIMCO Dynamic Income Strategy Fund Common Shares of Beneficial Interest,NYSE,N,active,2026-07-11,2026-08-07
 PDYN,Palladyne AI Corp. - Common stock,NASDAQ,N,active,2026-07-11,2026-08-07
@@ -7067,7 +7067,7 @@ WYFI,"WhiteFiber, Inc. - Ordinary Shares",NASDAQ,N,active,2026-07-11,2026-08-07
 WYHG,Wing Yip Food Holdings Group Limited - American Depositary Shares,NASDAQ,N,active,2026-07-11,2026-08-07
 WYNN,"Wynn Resorts, Limited - Common Stock",NASDAQ,N,active,2026-07-11,2026-08-07
 WYY,WidePoint Corporation Common Stock,NYSE American,N,active,2026-07-11,2026-08-07
-XAIR,"Beyond Air, Inc. - Common Stock",NASDAQ,D,active,2026-07-11,2026-08-07
+XAIR,"Beyond Air, Inc. - Common Stock",NASDAQ,N,active,2026-07-11,2026-08-07
 XAIX,Xtrackers Artificial Intelligence and Big Data ETF,NASDAQ,N,active,2026-07-11,2026-08-07
 XBCI,NEOS Boosted Bitcoin High Income ETF,NASDAQ,N,active,2026-07-11,2026-08-07
 XBIL,US Treasury 6 Month Bill ETF,NASDAQ,N,active,2026-07-11,2026-08-07
@@ -7321,3 +7321,9 @@ BRVE,"Braveheart Bio, Inc. - Common Stock",NASDAQ,N,active,2026-08-07,2026-08-07
 NCLD,Roundhill Neocloud ETF,NASDAQ,N,active,2026-08-07,2026-08-07
 RCBC,River City Bank - Common stock,NASDAQ,N,active,2026-08-07,2026-08-07
 TIH,The Investment House ETF,NASDAQ,N,active,2026-08-07,2026-08-07
+BLSM,"BlossomHill Therapeutics, Inc. - Common Stock",NASDAQ,N,active,2026-08-07,2026-08-07
+BSEM,"BioStem Technologies, Inc. - Common Stock",NASDAQ,N,active,2026-08-07,2026-08-07
+LTGO,"Latigo Biotherapeutics, Inc. - Common Stock",NASDAQ,N,active,2026-08-07,2026-08-07
+PARA,"Banzai International, Inc. - Class A Common Stock",NASDAQ,N,active,2026-08-07,2026-08-07
+QVC,"QVC Group, Inc. - Common Stock",NASDAQ,N,active,2026-08-07,2026-08-07
+TP,Ticketplus Ltd. Ordinary Shares,NYSE American,N,active,2026-08-07,2026-08-07
