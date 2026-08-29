@@ -9059,3 +9059,55 @@ date,ticker,event,detail
 2026-08-28,WILC,REMOVE,No longer in NYSE/Nasdaq/AMEX listed directory
 2026-08-28,XTER,ADD,Newly observed on NASDAQ
 2026-08-28,XTER,NO_DATA,Active in universe but Yahoo Finance returned no data (possible delisting)
+2026-08-29,AAC,NO_DATA,Active in universe but Yahoo Finance returned no data (possible delisting)
+2026-08-29,AHL$D,NO_DATA,Active in universe but Yahoo Finance returned no data (possible delisting)
+2026-08-29,AHL$E,NO_DATA,Active in universe but Yahoo Finance returned no data (possible delisting)
+2026-08-29,AHL$F,NO_DATA,Active in universe but Yahoo Finance returned no data (possible delisting)
+2026-08-29,ALOT,REMOVE,No longer in NYSE/Nasdaq/AMEX listed directory
+2026-08-29,ATH$A,NO_DATA,Active in universe but Yahoo Finance returned no data (possible delisting)
+2026-08-29,ATH$B,NO_DATA,Active in universe but Yahoo Finance returned no data (possible delisting)
+2026-08-29,ATH$D,NO_DATA,Active in universe but Yahoo Finance returned no data (possible delisting)
+2026-08-29,ATH$E,NO_DATA,Active in universe but Yahoo Finance returned no data (possible delisting)
+2026-08-29,BAC$E,NO_DATA,Active in universe but Yahoo Finance returned no data (possible delisting)
+2026-08-29,BAC$L,NO_DATA,Active in universe but Yahoo Finance returned no data (possible delisting)
+2026-08-29,BBCQ,REMOVE,No longer in NYSE/Nasdaq/AMEX listed directory
+2026-08-29,BCAR,REMOVE,No longer in NYSE/Nasdaq/AMEX listed directory
+2026-08-29,BGI,REMOVE,No longer in NYSE/Nasdaq/AMEX listed directory
+2026-08-29,DBRG$H,NO_DATA,Active in universe but Yahoo Finance returned no data (possible delisting)
+2026-08-29,DBRG$I,NO_DATA,Active in universe but Yahoo Finance returned no data (possible delisting)
+2026-08-29,DBRG$J,NO_DATA,Active in universe but Yahoo Finance returned no data (possible delisting)
+2026-08-29,DKNX,REMOVE,No longer in NYSE/Nasdaq/AMEX listed directory
+2026-08-29,EPR$E,NO_DATA,Active in universe but Yahoo Finance returned no data (possible delisting)
+2026-08-29,EQH$A,NO_DATA,Active in universe but Yahoo Finance returned no data (possible delisting)
+2026-08-29,FBRX,REMOVE,No longer in NYSE/Nasdaq/AMEX listed directory
+2026-08-29,FITB$I,NO_DATA,Active in universe but Yahoo Finance returned no data (possible delisting)
+2026-08-29,GAB$H,NO_DATA,Active in universe but Yahoo Finance returned no data (possible delisting)
+2026-08-29,GGN$B,NO_DATA,Active in universe but Yahoo Finance returned no data (possible delisting)
+2026-08-29,GS$D,NO_DATA,Active in universe but Yahoo Finance returned no data (possible delisting)
+2026-08-29,LMNX,REMOVE,No longer in NYSE/Nasdaq/AMEX listed directory
+2026-08-29,MET$E,NO_DATA,Active in universe but Yahoo Finance returned no data (possible delisting)
+2026-08-29,MS$A,NO_DATA,Active in universe but Yahoo Finance returned no data (possible delisting)
+2026-08-29,MS$F,NO_DATA,Active in universe but Yahoo Finance returned no data (possible delisting)
+2026-08-29,NLY$F,NO_DATA,Active in universe but Yahoo Finance returned no data (possible delisting)
+2026-08-29,PSQL,ADD,Newly observed on NASDAQ
+2026-08-29,RNR$F,NO_DATA,Active in universe but Yahoo Finance returned no data (possible delisting)
+2026-08-29,RNR$G,NO_DATA,Active in universe but Yahoo Finance returned no data (possible delisting)
+2026-08-29,SCE$L,NO_DATA,Active in universe but Yahoo Finance returned no data (possible delisting)
+2026-08-29,SCE$M,NO_DATA,Active in universe but Yahoo Finance returned no data (possible delisting)
+2026-08-29,SCE$N,NO_DATA,Active in universe but Yahoo Finance returned no data (possible delisting)
+2026-08-29,SNSC,NO_DATA,Active in universe but Yahoo Finance returned no data (possible delisting)
+2026-08-29,STT$G,NO_DATA,Active in universe but Yahoo Finance returned no data (possible delisting)
+2026-08-29,SVA,NO_DATA,Active in universe but Yahoo Finance returned no data (possible delisting)
+2026-08-29,TFC$I,NO_DATA,Active in universe but Yahoo Finance returned no data (possible delisting)
+2026-08-29,TRTN$A,NO_DATA,Active in universe but Yahoo Finance returned no data (possible delisting)
+2026-08-29,TRTN$B,NO_DATA,Active in universe but Yahoo Finance returned no data (possible delisting)
+2026-08-29,TRTN$C,NO_DATA,Active in universe but Yahoo Finance returned no data (possible delisting)
+2026-08-29,TRTN$D,NO_DATA,Active in universe but Yahoo Finance returned no data (possible delisting)
+2026-08-29,TRTN$E,NO_DATA,Active in universe but Yahoo Finance returned no data (possible delisting)
+2026-08-29,TRTN$F,NO_DATA,Active in universe but Yahoo Finance returned no data (possible delisting)
+2026-08-29,TRTN$G,NO_DATA,Active in universe but Yahoo Finance returned no data (possible delisting)
+2026-08-29,USB$A,NO_DATA,Active in universe but Yahoo Finance returned no data (possible delisting)
+2026-08-29,USB$H,NO_DATA,Active in universe but Yahoo Finance returned no data (possible delisting)
+2026-08-29,VNO$L,NO_DATA,Active in universe but Yahoo Finance returned no data (possible delisting)
+2026-08-29,XLAB,ADD,Newly observed on NASDAQ
+2026-08-29,XLAB,NO_DATA,Active in universe but Yahoo Finance returned no data (possible delisting)
