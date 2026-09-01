@@ -9132,11 +9132,15 @@ date,ticker,event,detail
 2026-09-01,FITB$I,NO_DATA,Active in universe but Yahoo Finance returned no data (possible delisting)
 2026-09-01,GAB$H,NO_DATA,Active in universe but Yahoo Finance returned no data (possible delisting)
 2026-09-01,GGN$B,NO_DATA,Active in universe but Yahoo Finance returned no data (possible delisting)
+2026-09-01,GIXI,ADD,Newly observed on NASDAQ
+2026-09-01,GIXI,NO_DATA,Active in universe but Yahoo Finance returned no data (possible delisting)
 2026-09-01,GS$D,NO_DATA,Active in universe but Yahoo Finance returned no data (possible delisting)
+2026-09-01,ISRL,ADD,Newly observed on NASDAQ
 2026-09-01,JAB,REMOVE,No longer in NYSE/Nasdaq/AMEX listed directory
 2026-09-01,MET$E,NO_DATA,Active in universe but Yahoo Finance returned no data (possible delisting)
 2026-09-01,MS$A,NO_DATA,Active in universe but Yahoo Finance returned no data (possible delisting)
 2026-09-01,MS$F,NO_DATA,Active in universe but Yahoo Finance returned no data (possible delisting)
+2026-09-01,MVPA,ADD,Newly observed on NYSE
 2026-09-01,NLY$F,NO_DATA,Active in universe but Yahoo Finance returned no data (possible delisting)
 2026-09-01,OPAD,EXCHANGE_CHANGE,Moved from NYSE to NASDAQ
 2026-09-01,PAAI,ADD,Newly observed on NYSE American
@@ -9148,6 +9152,8 @@ date,ticker,event,detail
 2026-09-01,SCE$L,NO_DATA,Active in universe but Yahoo Finance returned no data (possible delisting)
 2026-09-01,SCE$M,NO_DATA,Active in universe but Yahoo Finance returned no data (possible delisting)
 2026-09-01,SCE$N,NO_DATA,Active in universe but Yahoo Finance returned no data (possible delisting)
+2026-09-01,SGLD,ADD,Newly observed on NASDAQ
+2026-09-01,SGLD,NO_DATA,Active in universe but Yahoo Finance returned no data (possible delisting)
 2026-09-01,SNSC,NO_DATA,Active in universe but Yahoo Finance returned no data (possible delisting)
 2026-09-01,STT$G,NO_DATA,Active in universe but Yahoo Finance returned no data (possible delisting)
 2026-09-01,SVA,NO_DATA,Active in universe but Yahoo Finance returned no data (possible delisting)

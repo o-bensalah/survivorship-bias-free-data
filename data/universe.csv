@@ -1996,7 +1996,7 @@ ECPG,Encore Capital Group Inc - Common Stock,NASDAQ,N,active,2026-07-11,2026-09-
 ECVT,Ecovyst Inc. Common Stock,NYSE,N,active,2026-07-11,2026-09-01
 ECX,ECARX Holdings Inc. - Class A Ordinary shares,NASDAQ,N,active,2026-07-11,2026-09-01
 ED,"Consolidated Edison, Inc. Common Stock",NYSE,N,active,2026-07-11,2026-09-01
-EDBL,Edible Garden AG Incorporated - Common Stock,NASDAQ,D,active,2026-07-11,2026-09-01
+EDBL,Edible Garden AG Incorporated - Common Stock,NASDAQ,N,active,2026-07-11,2026-09-01
 EDD,"Morgan Stanley Emerging Markets Domestic Debt Fund, Inc. Common Stock",NYSE,N,active,2026-07-11,2026-09-01
 EDF,Virtus Stone Harbor Emerging Markets Income Fund Common Shares of Beneficial Interest,NYSE,N,active,2026-07-11,2026-09-01
 EDHL,Everbright Digital Holding Limited - Ordinary Shares,NASDAQ,N,active,2026-07-11,2026-09-01
@@ -4403,7 +4403,7 @@ NCMI,"National CineMedia, Inc. - Common Stock",NASDAQ,N,active,2026-07-11,2026-0
 NCNA,NuCana plc - American Depositary Shares,NASDAQ,N,active,2026-07-11,2026-09-01
 NCNO,"nCino, Inc. - Common Stock",NASDAQ,N,active,2026-07-11,2026-09-01
 NCPB,Nuveen Core Plus Bond ETF,NASDAQ,N,active,2026-07-11,2026-09-01
-NCPL,Netcapital Inc. - Common Stock,NASDAQ,D,active,2026-07-11,2026-09-01
+NCPL,Netcapital Inc. - Common Stock,NASDAQ,H,active,2026-07-11,2026-09-01
 NCRA,"Nocera, Inc. - common stock",NASDAQ,N,active,2026-07-11,2026-09-01
 NCSM,"NCS Multistage Holdings, Inc. - Common Stock",NASDAQ,N,active,2026-07-11,2026-09-01
 NCT,Intercont (Cayman) Limited - Class A Ordinary shares,NASDAQ,N,active,2026-07-11,2026-09-01
@@ -7183,7 +7183,7 @@ YTRA,"Yatra Online, Inc. - Ordinary Shares",NASDAQ,D,active,2026-07-11,2026-09-0
 YUM,"Yum! Brands, Inc.",NYSE,N,active,2026-07-11,2026-09-01
 YUMC,"Yum China Holdings, Inc. Common Stock",NYSE,N,active,2026-07-11,2026-09-01
 YXT,YXT.COM GROUP HOLDING LIMITED - American Depository Shares,NASDAQ,N,active,2026-07-11,2026-09-01
-YYAI,AiRWA Inc. - Common Stock,NASDAQ,N,active,2026-07-11,2026-09-01
+YYAI,AiRWA Inc. - Common Stock,NASDAQ,E,active,2026-07-11,2026-09-01
 YYGH,YY Group Holding Limited - Class A Ordinary Shares,NASDAQ,N,active,2026-07-11,2026-09-01
 Z,"Zillow Group, Inc. - Class C Capital Stock",NASDAQ,N,active,2026-07-11,2026-09-01
 ZAP,Global X U.S. Electrification ETF,NASDAQ,N,active,2026-07-11,2026-09-01
@@ -7383,3 +7383,7 @@ ATLQ,JAB Acquisition Corp I - Class A Ordinary Shares,NASDAQ,N,active,2026-09-01
 TRBG,TurboGen Ltd. - Ordinary Shares,NASDAQ,N,active,2026-09-01,2026-09-01
 PAAI,"Paradium.AI, Inc. Common Stock",NYSE American,N,active,2026-09-01,2026-09-01
 SAMO,Samos Energy Acquisition Corporation Class A Ordinary Shares,NYSE,N,active,2026-09-01,2026-09-01
+GIXI,Gix Internet Ltd. - Ordinary Shares,NASDAQ,N,active,2026-09-01,2026-09-01
+ISRL,Defiance KSM Israel 120 ETF,NASDAQ,N,active,2026-09-01,2026-09-01
+SGLD,Scorpio Gold Corporation - Common Stock,NASDAQ,N,active,2026-09-01,2026-09-01
+MVPA,Miller Value Partners Appreciation ETF,NYSE,N,active,2026-09-01,2026-09-01
