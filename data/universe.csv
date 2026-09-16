@@ -4026,7 +4026,7 @@ MDB,"MongoDB, Inc. - Class A Common Stock",NASDAQ,N,active,2026-07-11,2026-09-15
 MDBH,"MDB Capital Holdings, LLC - Class A common ",NASDAQ,N,active,2026-07-11,2026-09-15
 MDCX,Medicus Pharma Ltd. - Common Stock,NASDAQ,D,active,2026-07-11,2026-09-15
 MDGL,"Madrigal Pharmaceuticals, Inc. - Common Stock",NASDAQ,N,active,2026-07-11,2026-09-15
-MDIA,Mediaco Holding Inc. - Class A Common Stock,NASDAQ,D,active,2026-07-11,2026-09-15
+MDIA,Mediaco Holding Inc. - Class A Common Stock,NASDAQ,N,active,2026-07-11,2026-09-15
 MDIV,Multi-Asset Diversified Income Index Fund,NASDAQ,N,active,2026-07-11,2026-09-15
 MDLN,Medline Inc. - Class A common stock,NASDAQ,N,active,2026-07-11,2026-09-15
 MDLZ,"Mondelez International, Inc. - Class A Common Stock",NASDAQ,N,active,2026-07-11,2026-09-15
@@ -4919,7 +4919,7 @@ PBRG,Leverage Shares 2X Long PBR Daily ETF,NASDAQ,N,active,2026-07-11,2026-09-15
 PBSC,Pacer Barings Secured Credit Flex ETF,NASDAQ,N,active,2026-07-11,2026-09-15
 PBT,Permian Basin Royalty Trust Common Stock,NYSE,N,active,2026-07-11,2026-09-15
 PBYI,Puma Biotechnology Inc - Common Stock,NASDAQ,N,active,2026-07-11,2026-09-15
-PC,Premium Catering (Holdings) Limited - Ordinary Shares,NASDAQ,N,active,2026-07-11,2026-09-15
+PC,Premium Catering (Holdings) Limited - Ordinary Shares,NASDAQ,E,active,2026-07-11,2026-09-15
 PCAP,ProCap Acquisition Corp - Class A Ordinary Shares,NASDAQ,N,active,2026-07-11,2026-09-15
 PCAR,PACCAR Inc. - Common Stock,NASDAQ,N,active,2026-07-11,2026-09-15
 PCB,PCB Bancorp - Common Stock,NASDAQ,N,active,2026-07-11,2026-09-15
@@ -7415,3 +7415,6 @@ OCLT,OceanLight Acquisition Corporation - Ordinary Shares,NASDAQ,N,active,2026-0
 HLSQ,Tessera Defense and Homeland Security Inc. Common Stock,NYSE American,N,active,2026-09-11,2026-09-15
 AFDM,First Trust Active Factor International ETF,NASDAQ,N,active,2026-09-15,2026-09-15
 AFEM,First Trust Active Factor Emerging Markets ETF,NASDAQ,N,active,2026-09-15,2026-09-15
+NUIB,Nuveen Impact Bond ETF,NASDAQ,N,active,2026-09-15,2026-09-15
+RNAQ,Rainier Acquisition Corporation - Class A Ordinary Shares,NASDAQ,N,active,2026-09-15,2026-09-15
+XUSM,MarketDesk International Momentum ETF,NASDAQ,N,active,2026-09-15,2026-09-15

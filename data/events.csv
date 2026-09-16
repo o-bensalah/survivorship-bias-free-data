@@ -9584,8 +9584,12 @@ date,ticker,event,detail
 2026-09-15,MS$A,NO_DATA,Active in universe but Yahoo Finance returned no data (possible delisting)
 2026-09-15,MS$F,NO_DATA,Active in universe but Yahoo Finance returned no data (possible delisting)
 2026-09-15,NLY$F,NO_DATA,Active in universe but Yahoo Finance returned no data (possible delisting)
+2026-09-15,NUIB,ADD,Newly observed on NASDAQ
+2026-09-15,NUIB,NO_DATA,Active in universe but Yahoo Finance returned no data (possible delisting)
 2026-09-15,RFDI,REMOVE,No longer in NYSE/Nasdaq/AMEX listed directory
 2026-09-15,RFEM,REMOVE,No longer in NYSE/Nasdaq/AMEX listed directory
+2026-09-15,RNAQ,ADD,Newly observed on NASDAQ
+2026-09-15,RNAQ,NO_DATA,Active in universe but Yahoo Finance returned no data (possible delisting)
 2026-09-15,RNR$F,NO_DATA,Active in universe but Yahoo Finance returned no data (possible delisting)
 2026-09-15,RNR$G,NO_DATA,Active in universe but Yahoo Finance returned no data (possible delisting)
 2026-09-15,SCE$L,NO_DATA,Active in universe but Yahoo Finance returned no data (possible delisting)
@@ -9603,3 +9607,5 @@ date,ticker,event,detail
 2026-09-15,USB$A,NO_DATA,Active in universe but Yahoo Finance returned no data (possible delisting)
 2026-09-15,USB$H,NO_DATA,Active in universe but Yahoo Finance returned no data (possible delisting)
 2026-09-15,VNO$L,NO_DATA,Active in universe but Yahoo Finance returned no data (possible delisting)
+2026-09-15,XUSM,ADD,Newly observed on NASDAQ
+2026-09-15,XUSM,NO_DATA,Active in universe but Yahoo Finance returned no data (possible delisting)
