@@ -722,7 +722,7 @@ BCAT,BlackRock Capital Allocation Term Trust Common Shares of Beneficial Interes
 BCAX,Bicara Therapeutics Inc. - Common Stock,NASDAQ,N,active,2026-07-11,2026-09-22
 BCBP,"BCB Bancorp, Inc. (NJ) - Common Stock",NASDAQ,N,active,2026-07-11,2026-09-22
 BCC,"Boise Cascade, L.L.C. Common Stock",NYSE,N,active,2026-07-11,2026-09-22
-BCDA,"BioCardia, Inc. - Common Stock",NASDAQ,D,active,2026-07-11,2026-09-22
+BCDA,"BioCardia, Inc. - Common Stock",NASDAQ,N,active,2026-07-11,2026-09-22
 BCE,"BCE, Inc. Common Stock",NYSE,N,active,2026-07-11,2026-09-22
 BCEM,Baron Emerging Markets Select ETF,NYSE,N,active,2026-07-11,2026-09-22
 BCFN,Baron Financials ETF,NASDAQ,N,active,2026-07-11,2026-09-22
@@ -998,7 +998,7 @@ BRNY,Burney U.S. Factor Rotation ETF,NASDAQ,N,active,2026-07-11,2026-09-22
 BRO,"Brown & Brown, Inc. Common Stock",NYSE,N,active,2026-07-11,2026-09-22
 BROL,Baron Risk Optimized Large Cap ETF,NYSE,N,active,2026-07-11,2026-09-22
 BROS,Dutch Bros Inc. Class A Common Stock,NYSE,N,active,2026-07-11,2026-09-22
-BRR,"ProCap Financial, Inc. - Common Stock",NASDAQ,N,active,2026-07-11,2026-09-22
+BRR,"ProCap Financial, Inc. - Common Stock",NASDAQ,N,removed,2026-07-11,2026-09-22
 BRRR,Coinshares Bitcoin ETF,NASDAQ,N,active,2026-07-11,2026-09-22
 BRSL,"Brightstar Lottery PLC Trading under the Legal Name to begin at the market open on July 21, 2025. Ordinary Shares",NYSE,N,active,2026-07-11,2026-09-22
 BRSP,"BrightSpire Capital, Inc. Class A Common Stock",NYSE,N,active,2026-07-11,2026-09-22
@@ -1386,7 +1386,7 @@ CLDT,Chatham Lodging Trust (REIT) Common Shares of Beneficial Interest,NYSE,N,ac
 CLDX,"Celldex Therapeutics, Inc. - Common Stock",NASDAQ,N,active,2026-07-11,2026-09-22
 CLF,Cleveland-Cliffs Inc. Common Stock,NYSE,N,active,2026-07-11,2026-09-22
 CLFD,"Clearfield, Inc. - Common Stock",NASDAQ,N,active,2026-07-11,2026-09-22
-CLGN,CollPlant Biotechnologies Ltd. - Ordinary Shares,NASDAQ,D,active,2026-07-11,2026-09-22
+CLGN,CollPlant Biotechnologies Ltd. - Ordinary Shares,NASDAQ,N,active,2026-07-11,2026-09-22
 CLH,"Clean Harbors, Inc. Common Stock",NYSE,N,active,2026-07-11,2026-09-22
 CLIK,Click Holdings Limited - Ordinary Share,NASDAQ,N,active,2026-07-11,2026-09-22
 CLIR,ClearSign Technologies Corporation - Common Stock,NASDAQ,N,active,2026-07-11,2026-09-22
@@ -2364,7 +2364,7 @@ FEOE,First Eagle Overseas Equity ETF,NYSE,N,active,2026-07-11,2026-09-22
 FEP,First Trust Europe AlphaDEX Fund,NASDAQ,N,active,2026-07-11,2026-09-22
 FEPI,REX FANG & Innovation Equity Premium Income ETF,NASDAQ,N,active,2026-07-11,2026-09-22
 FER,Ferrovial N.V. - Ordinary Shares,NASDAQ,N,active,2026-07-11,2026-09-22
-FERA,Fifth Era Acquisition Corp I - Class A Ordinary Shares,NASDAQ,N,active,2026-07-11,2026-09-22
+FERA,Fifth Era Acquisition Corp I - Class A Ordinary Shares,NASDAQ,D,active,2026-07-11,2026-09-22
 FERG,Ferguson Enterprises Inc. Common Stock,NYSE,N,active,2026-07-11,2026-09-22
 FET,"Forum Energy Technologies, Inc. Common Stock",NYSE,N,active,2026-07-11,2026-09-22
 FEUZ,First Trust Eurozone AlphaDEX ETF,NASDAQ,N,active,2026-07-11,2026-09-22
@@ -3140,7 +3140,7 @@ HVT-A,"Haverty Furniture Companies, Inc. Common Stock",NYSE,N,active,2026-07-11,
 HWAY,Themes US Infrastructure ETF,NASDAQ,N,removed,2026-07-11,2026-07-28
 HWBK,"Hawthorn Bancshares, Inc. - Common Stock",NASDAQ,N,active,2026-07-11,2026-09-22
 HWC,Hancock Whitney Corporation - Common Stock,NASDAQ,N,active,2026-07-11,2026-09-22
-HWH,HWH International Inc. - Common Stock,NASDAQ,N,active,2026-07-11,2026-09-22
+HWH,HWH International Inc. - Common Stock,NASDAQ,N,removed,2026-07-11,2026-09-22
 HWKN,"Hawkins, Inc. - Common Stock",NASDAQ,N,active,2026-07-11,2026-09-22
 HWM,Howmet Aerospace Inc. Common Stock,NYSE,N,active,2026-07-11,2026-09-22
 HWSM,Hotchkis & Wiley SMID Cap Diversified Value Fund,NASDAQ,N,active,2026-07-11,2026-09-22
@@ -3778,7 +3778,7 @@ LFTO,"Liftoff Mobile, Inc. - Common Stock",NASDAQ,N,active,2026-07-11,2026-09-22
 LFUS,"Littelfuse, Inc. - Common Stock",NASDAQ,N,active,2026-07-11,2026-09-22
 LFVN,Lifevantage Corporation - Common Stock,NASDAQ,N,active,2026-07-11,2026-09-22
 LFWD,Lifeward Ltd. - Ordinary Shares,NASDAQ,N,active,2026-07-11,2026-09-22
-LGCF,Themes US Cash Flow Champions ETF,NASDAQ,N,active,2026-07-11,2026-09-22
+LGCF,Themes US Cash Flow Champions ETF,NASDAQ,N,removed,2026-07-11,2026-09-22
 LGCL,Lucas GC Limited - Class A Ordinary Shares,NASDAQ,N,active,2026-07-11,2026-09-22
 LGCY,Legacy Education Inc. Common Stock,NYSE American,N,active,2026-07-11,2026-09-22
 LGHL,Lion Group Holding Ltd. - American Depositary Share,NASDAQ,N,active,2026-07-11,2026-09-22
@@ -4462,7 +4462,7 @@ NGVC,"Natural Grocers by Vitamin Cottage, Inc. Common Stock",NYSE,N,active,2026-
 NGVT,Ingevity Corporation Common Stock ,NYSE,N,active,2026-07-11,2026-09-22
 NHC,National HealthCare Corporation Common Stock,NYSE American,N,active,2026-07-11,2026-09-22
 NHI,"National Health Investors, Inc. Common Stock",NYSE,N,active,2026-07-11,2026-09-22
-NHIC,NewHold Investment Corp III - Class A Ordinary shares,NASDAQ,N,active,2026-07-11,2026-09-22
+NHIC,NewHold Investment Corp III - Class A Ordinary shares,NASDAQ,N,removed,2026-07-11,2026-09-22
 NHIV,NewHold Investment Corp IV - Class A Ordinary Shares,NASDAQ,N,active,2026-07-11,2026-09-22
 NHP,"National Healthcare Properties, Inc. - Class A Common Stock",NASDAQ,N,active,2026-07-11,2026-09-22
 NHS,Neuberger High Yield Strategies Fund Inc. Common Stock,NYSE American,N,active,2026-07-11,2026-09-22
@@ -4919,7 +4919,7 @@ PBRG,Leverage Shares 2X Long PBR Daily ETF,NASDAQ,N,active,2026-07-11,2026-09-22
 PBSC,Pacer Barings Secured Credit Flex ETF,NASDAQ,N,active,2026-07-11,2026-09-22
 PBT,Permian Basin Royalty Trust Common Stock,NYSE,N,active,2026-07-11,2026-09-22
 PBYI,Puma Biotechnology Inc - Common Stock,NASDAQ,N,active,2026-07-11,2026-09-22
-PC,Premium Catering (Holdings) Limited - Ordinary Shares,NASDAQ,E,active,2026-07-11,2026-09-22
+PC,Premium Catering (Holdings) Limited - Ordinary Shares,NASDAQ,N,active,2026-07-11,2026-09-22
 PCAP,ProCap Acquisition Corp - Class A Ordinary Shares,NASDAQ,N,active,2026-07-11,2026-09-22
 PCAR,PACCAR Inc. - Common Stock,NASDAQ,N,active,2026-07-11,2026-09-22
 PCB,PCB Bancorp - Common Stock,NASDAQ,N,active,2026-07-11,2026-09-22
@@ -5889,7 +5889,7 @@ SMA,"SmartStop Self Storage REIT, Inc. Common Stock",NYSE,N,active,2026-07-11,20
 SMBC,"Southern Missouri Bancorp, Inc. - Common Stock",NASDAQ,N,active,2026-07-11,2026-09-22
 SMBK,"SmartFinancial, Inc. Common Stock",NYSE,N,active,2026-07-11,2026-09-22
 SMC,Summit Midstream Corporation Common Stock,NYSE,N,active,2026-07-11,2026-09-22
-SMCF,Themes US Small Cap Cash Flow Champions ETF,NASDAQ,N,active,2026-07-11,2026-09-22
+SMCF,Themes US Small Cap Cash Flow Champions ETF,NASDAQ,N,removed,2026-07-11,2026-09-22
 SMCI,"Super Micro Computer, Inc. - Common Stock",NASDAQ,N,active,2026-07-11,2026-09-22
 SMCL,GraniteShares 2x Long SMCI Daily ETF,NASDAQ,N,active,2026-07-11,2026-09-22
 SMCO,Hilton Small-MidCap Opportunity ETF,NASDAQ,N,active,2026-07-11,2026-09-22
@@ -6182,7 +6182,7 @@ TAK,Takeda Pharmaceutical Company Limited American Depositary Shares (each repre
 TAL,TAL Education Group American Depositary Shares,NYSE,N,active,2026-07-11,2026-09-22
 TALK,"Talkspace, Inc. - Common Stock",NASDAQ,N,removed,2026-07-11,2026-08-17
 TALO,"Talos Energy, Inc. Common Stock",NYSE,N,active,2026-07-11,2026-09-22
-TANH,Tantech Holdings Ltd. - Class A Common Shares,NASDAQ,D,active,2026-07-11,2026-09-22
+TANH,Tantech Holdings Ltd. - Class A Common Shares,NASDAQ,N,active,2026-07-11,2026-09-22
 TAOP,Taoping Inc. - Ordinary Shares,NASDAQ,N,active,2026-07-11,2026-09-22
 TAOX,Tao Synergies Inc. - Common Stock,NASDAQ,N,active,2026-07-11,2026-09-22
 TAOZ,Thornburg American Opportunities Fund,NASDAQ,N,active,2026-07-11,2026-09-22
@@ -6923,7 +6923,7 @@ WBI,WaterBridge Infrastructure LLC Class A Shares Representing Limited Liability
 WBIY,WBI Power Factor High Dividend ETF,NYSE,N,active,2026-07-11,2026-09-22
 WBS,Webster Financial Corporation Common Stock,NYSE,N,removed,2026-07-11,2026-08-19
 WBTN,WEBTOON Entertainment Inc. - Common stock,NASDAQ,N,active,2026-07-11,2026-09-22
-WBUY,WEBUY GLOBAL LTD. - Class A Ordinary Shares,NASDAQ,N,active,2026-07-11,2026-09-22
+WBUY,WEBUY GLOBAL LTD. - Class A Ordinary Shares,NASDAQ,D,active,2026-07-11,2026-09-22
 WBX,Wallbox N.V. Class A Ordinary Shares,NYSE,N,active,2026-07-11,2026-09-22
 WCBR,WisdomTree Cybersecurity Fund,NASDAQ,N,active,2026-07-11,2026-09-22
 WCC,"WESCO International, Inc. Common Stock",NYSE,N,active,2026-07-11,2026-09-22
@@ -7435,3 +7435,8 @@ ETRA,"Electra Therapeutics, Inc. - Common stock",NASDAQ,N,active,2026-09-18,2026
 OIG,Orion180 Insurance Group Inc. - Class A Common Stock,NASDAQ,N,active,2026-09-18,2026-09-22
 XIII,Churchill Capital Corp XIII - Class A Ordinary Shares,NASDAQ,N,active,2026-09-18,2026-09-22
 HOST,Host Digital Inc. Class A Common Stock,NYSE American,N,active,2026-09-18,2026-09-22
+ESYN,EnerSyn Global Inc. - Common Stock,NASDAQ,N,active,2026-09-22,2026-09-22
+NWCL,newcleo plc - Ordinary Shares,NASDAQ,N,active,2026-09-22,2026-09-22
+QQQB,VistaShares Shield Nasdaq 100 Enhanced Protection ETF,NASDAQ,N,active,2026-09-22,2026-09-22
+SVIA,"Silvia, Inc. - Common Stock",NASDAQ,N,active,2026-09-22,2026-09-22
+VOOB,VistaShares Shield S&P 500 Enhanced Protection ETF,NASDAQ,N,active,2026-09-22,2026-09-22
