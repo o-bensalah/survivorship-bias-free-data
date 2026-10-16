@@ -10565,12 +10565,16 @@ date,ticker,event,detail
 2026-10-15,AHL$D,NO_DATA,Active in universe but Yahoo Finance returned no data (possible delisting)
 2026-10-15,AHL$E,NO_DATA,Active in universe but Yahoo Finance returned no data (possible delisting)
 2026-10-15,AHL$F,NO_DATA,Active in universe but Yahoo Finance returned no data (possible delisting)
+2026-10-15,AMRO,ADD,Newly observed on NASDAQ
+2026-10-15,AMRO,NO_DATA,Active in universe but Yahoo Finance returned no data (possible delisting)
 2026-10-15,ATH$A,NO_DATA,Active in universe but Yahoo Finance returned no data (possible delisting)
 2026-10-15,ATH$B,NO_DATA,Active in universe but Yahoo Finance returned no data (possible delisting)
 2026-10-15,ATH$D,NO_DATA,Active in universe but Yahoo Finance returned no data (possible delisting)
 2026-10-15,ATH$E,NO_DATA,Active in universe but Yahoo Finance returned no data (possible delisting)
 2026-10-15,BAC$E,NO_DATA,Active in universe but Yahoo Finance returned no data (possible delisting)
 2026-10-15,BAC$L,NO_DATA,Active in universe but Yahoo Finance returned no data (possible delisting)
+2026-10-15,BMMX,ADD,Newly observed on NASDAQ
+2026-10-15,BMMX,NO_DATA,Active in universe but Yahoo Finance returned no data (possible delisting)
 2026-10-15,CCO,REMOVE,No longer in NYSE/Nasdaq/AMEX listed directory
 2026-10-15,DFGV,ADD,Newly observed on NASDAQ
 2026-10-15,DFGV,NO_DATA,Active in universe but Yahoo Finance returned no data (possible delisting)
@@ -10584,6 +10588,8 @@ date,ticker,event,detail
 2026-10-15,GGN$B,NO_DATA,Active in universe but Yahoo Finance returned no data (possible delisting)
 2026-10-15,GS$D,NO_DATA,Active in universe but Yahoo Finance returned no data (possible delisting)
 2026-10-15,IAE,REMOVE,No longer in NYSE/Nasdaq/AMEX listed directory
+2026-10-15,IAM,ADD,Newly observed on NASDAQ
+2026-10-15,IAM,NO_DATA,Active in universe but Yahoo Finance returned no data (possible delisting)
 2026-10-15,IHD,REMOVE,No longer in NYSE/Nasdaq/AMEX listed directory
 2026-10-15,MET$E,NO_DATA,Active in universe but Yahoo Finance returned no data (possible delisting)
 2026-10-15,MGOL,ADD,Newly observed on NASDAQ

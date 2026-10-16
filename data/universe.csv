@@ -5055,7 +5055,7 @@ PLCE,"Children's Place, Inc. (The) - Common Stock",NASDAQ,N,active,2026-07-11,20
 PLD,"Prologis, Inc. Common Stock",NYSE,N,active,2026-07-11,2026-10-15
 PLG,Platinum Group Metals Ltd. Ordinary Shares (Canada),NYSE American,N,active,2026-07-11,2026-10-15
 PLGO,Pelagos Insurance Capital Limited Common Shares,NYSE,N,active,2026-07-11,2026-10-15
-PLMK,Plum Acquisition Corp. IV - Class A Ordinary Shares,NASDAQ,N,active,2026-07-11,2026-10-15
+PLMK,Plum Acquisition Corp. IV - Class A Ordinary Shares,NASDAQ,D,active,2026-07-11,2026-10-15
 PLMR,"Palomar Holdings, Inc. - Common stock",NASDAQ,N,active,2026-07-11,2026-10-15
 PLNT,"Planet Fitness, Inc. Common Stock",NYSE,N,active,2026-07-11,2026-10-15
 PLOW,"Douglas Dynamics, Inc. Common Stock",NYSE,N,active,2026-07-11,2026-10-15
@@ -5337,7 +5337,7 @@ QRMI,Global X NASDAQ 100 Risk Managed Income ETF,NASDAQ,N,active,2026-07-11,2026
 QRVO,"Qorvo, Inc. - Common Stock",NASDAQ,N,removed,2026-07-11,2026-10-06
 QS,QuantumScape Corporation - Common Stock,NASDAQ,N,active,2026-07-11,2026-10-15
 QSEA,Quartzsea Acquisition Corporation - Ordinary Shares,NASDAQ,N,active,2026-07-11,2026-10-15
-QSI,Quantum-Si Incorporated - Class A Common Stock,NASDAQ,D,active,2026-07-11,2026-10-15
+QSI,Quantum-Si Incorporated - Class A Common Stock,NASDAQ,N,active,2026-07-11,2026-10-15
 QSIX,Pacer Metaurus Nasdaq 100 Dividend Multiplier 600 ETF,NASDAQ,N,active,2026-07-11,2026-10-15
 QSML,WisdomTree U.S. SmallCap Quality Growth Fund,NASDAQ,N,active,2026-07-11,2026-10-15
 QSR,Restaurant Brands International Inc. Common Shares,NYSE,N,active,2026-07-11,2026-10-15
@@ -5628,7 +5628,7 @@ RYAAY,"Ryanair Holdings plc - American Depositary Shares, each representing five
 RYAM,Rayonier Advanced Materials Inc. Common Stock,NYSE,N,active,2026-07-11,2026-10-15
 RYAN,"Ryan Specialty Holdings, Inc. Class A Common Stock",NYSE,N,active,2026-07-11,2026-10-15
 RYDE,Ryde Group Ltd. Class A Ordinary Shares,NYSE American,N,active,2026-07-11,2026-10-15
-RYET,Ruanyun Edai Technology Inc. - Ordinary shares,NASDAQ,N,active,2026-07-11,2026-10-15
+RYET,Ruanyun Edai Technology Inc. - Ordinary shares,NASDAQ,D,active,2026-07-11,2026-10-15
 RYM,"RYTHM, Inc. - Common Stock",NASDAQ,N,active,2026-07-11,2026-10-15
 RYN,Rayonier Inc. REIT Common Stock,NYSE,N,active,2026-07-11,2026-10-15
 RYOJ,"rYojbaba Co., Ltd. - Common Shares",NASDAQ,N,active,2026-07-11,2026-10-15
@@ -6071,7 +6071,7 @@ STE,STERIS plc (Ireland) Ordinary Shares,NYSE,N,active,2026-07-11,2026-10-15
 STEM,"Stem, Inc. Class A Common Stock",NYSE,N,active,2026-07-11,2026-10-15
 STEP,StepStone Group Inc. - Class A Common Stock,NASDAQ,N,active,2026-07-11,2026-10-15
 STEW,"SRH Total Return Fund, Inc. Common Stock",NYSE,N,active,2026-07-11,2026-10-15
-STEX,Streamex Corp. - Common Stock,NASDAQ,N,active,2026-07-11,2026-10-15
+STEX,Streamex Corp. - Common Stock,NASDAQ,D,active,2026-07-11,2026-10-15
 STFS,Star Fashion Culture Holdings Limited - Class A Ordinary Shares,NASDAQ,N,active,2026-07-11,2026-10-15
 STG,"Sunlands Technology Group American Depositary Shares, representing Class A ordinary shares",NYSE,N,active,2026-07-11,2026-10-15
 STGW,Stagwell Inc. - Class A Common Stock,NASDAQ,N,active,2026-07-11,2026-10-15
@@ -7131,7 +7131,7 @@ XT,iShares Future Exponential Technologies ETF,NASDAQ,N,active,2026-07-11,2026-1
 XTIA,"XTI Aerospace, Inc. Common Stock  - Common Stock",NASDAQ,E,active,2026-07-11,2026-10-15
 XTLB,XTL Biopharmaceuticals Ltd. - American Depositary Shares,NASDAQ,N,active,2026-07-11,2026-10-15
 XTNT,"Xtant Medical Holdings, Inc. Common Stock",NYSE American,N,active,2026-07-11,2026-10-15
-XWEL,"XWELL, Inc. - Common Stock",NASDAQ,N,active,2026-07-11,2026-10-15
+XWEL,"XWELL, Inc. - Common Stock",NASDAQ,D,active,2026-07-11,2026-10-15
 XXI,"Twenty One Capital, Inc. Class A Common Stock",NYSE,N,active,2026-07-11,2026-10-15
 XXII,"22nd Century Group, Inc - Common Stock",NASDAQ,N,active,2026-07-11,2026-10-15
 XXX,CYBER HORNET S&P 500 and XRP 75/25 Strategy ETF,NASDAQ,N,active,2026-07-11,2026-10-15
@@ -7498,3 +7498,6 @@ FLSC,Frazier Life Sciences Acquisition Corp. II - Class A Ordinary Shares,NASDAQ
 MGOL,Leverage Shares MANGOS ETF,NASDAQ,N,active,2026-10-15,2026-10-15
 PEPT,REX Peptide ETF,NASDAQ,N,active,2026-10-15,2026-10-15
 RTHY,F/m Long-Term Treasury Inflation-Protected Security (TIPS) ETF,NASDAQ,N,active,2026-10-15,2026-10-15
+AMRO,Amaero Inc. - Common Stock,NASDAQ,N,active,2026-10-15,2026-10-15
+BMMX,Black Mammoth Metals Corporation - Common Shares,NASDAQ,N,active,2026-10-15,2026-10-15
+IAM,"Iambic Therapeutics, Inc. - Common Stock",NASDAQ,N,active,2026-10-15,2026-10-15
